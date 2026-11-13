@@ -1,10 +1,27 @@
-﻿# gene_tree 目录说明
+# Comparative-genomics preparation
 
-本目录用于整理基因树分析前的 BUSCO genome 输入。脚本文件保持在当前目录原位。
+Select representative genomes using assembly and BUSCO information and link selected BUSCO runs. This module prepares inputs; it does not by itself infer a phylogeny.
 
-## 文件分类
+## Inputs and outputs
 
-| 文件 | 类型 | 用途 |
-| --- | --- | --- |
-| `select_best_busco_genomes.py` | 数据处理脚本 | 从 genome summary 中为每个物种选择 BUSCO 表现最好的 genome。 |
-| `link_selected_busco_runs.py` | 数据处理脚本 | 将选中的 BUSCO 结果链接到统一目录，供后续基因树分析使用。 |
+Input: genome/BUSCO summaries and BUSCO run directories. Output: selected-genome tables and links to BUSCO results.
+
+## Usage
+
+Run from the repository root. Review file paths and required dependencies before executing a data-processing job. Inspect the command-line interface first:
+
+```bash
+python script/gene_tree/select_best_busco_genomes.py --help
+```
+
+
+## Script inventory
+
+| Script | Interface / role |
+| --- | --- |
+| `link_selected_busco_runs.py` | CLI options: `--selected-tsv`, `--busco-root`, `--output-dir`, `--manifest` |
+| `select_best_busco_genomes.py` | CLI options: `--input-tsv`, `--output-tsv` |
+
+## Reproducibility
+
+Original defaults may refer to project-specific files or absolute server paths. Supply explicit input/output paths where supported. These are processing utilities, not a bundled copy of every upstream dataset. Live API results can differ between retrieval dates. Retain source accessions and manual-review decisions for each release.

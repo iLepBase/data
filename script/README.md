@@ -1,32 +1,41 @@
-﻿# script 目录说明
+# iLepBase data processing
 
-本目录保存 iLepBase 数据库构建过程中使用的脚本。
+Data processing and quality control scripts, filtered and cleaned data tables for iLepBase.
 
-## 顶层目录
+## Repository organization
 
-| 目录 | 主要用途 | 当前整理 |
-| --- | --- | --- |
-| `clean_species/` | 物种名清洗和分类信息补全 | 脚本保留在根目录，旧说明放入 `docs/` |
-| `COI/` | BOLD COI 序列拆分和整理 | 脚本保留在根目录 |
-| `distribution/` | GBIF / BOLD 分布数据抽取、合并和过滤 | 脚本保留在根目录 |
-| `gene_tree/` | BUSCO genome 筛选和基因树输入整理 | 脚本保留在根目录 |
-| `genome/` | NCBI genome 下载、解压和清洗 | 脚本保留在根目录；工具在 `tools/`；清洗日志在 `clean/logs/` |
-| `genome_anno/` | IBG / NCBI genome annotation 下载和整理 | 脚本保留在根目录；说明文档在 `docs/` |
-| `hostplant/` | 寄主植物数据清洗和审核任务生成 | 脚本保留在根目录 |
-| `json/` | 将清洗结果写入 species JSON | 脚本保留在根目录；运行日志在 `logs/` |
-| `pdb/` | PDB 相关数据清洗 | 清洗脚本在 `clean/` |
-| `SRA/` | SRA / transcriptome 爬虫、字段补全和坐标回填 | 脚本保留在根目录；历史说明在 `docs/` |
+| Directory | Purpose |
+| --- | --- |
+| [`script/taxonomy/`](taxonomy/README.md) | Reconcile source names with NCBI and GBIF taxonomy and produce candidate matches and manual-review tables. |
+| [`script/barcode/`](barcode/README.md) | Split BOLD FASTA records by species for downstream integration. |
+| [`script/transcriptome/`](transcriptome/README.md) | Retrieve SRA and BioSample metadata, normalize sample attributes, re-extract cached fields and backfill geographic coordinates. |
+| [`script/genome/`](genome/README.md) | Download NCBI genome assemblies, extract archives and normalize genome metadata from NCBI, NGDC and InsectBase. |
+| [`script/annotation/`](annotation/README.md) | Download InsectBase annotation resources and copy NCBI annotation files into the data layout. |
+| [`script/distribution/`](distribution/README.md) | Extract GBIF/BOLD occurrence records, reconcile names with the taxonomy table and split results by species. |
+| [`script/hostplant/`](hostplant/README.md) | Reconcile taxonomic names, prepare manual-review tasks and finalize curated host-association tables. |
+| [`script/pdb/`](pdb/README.md) | Enrich PDB metadata with taxonomic information and filter against the supported taxonomy. |
+| [`script/integration/`](integration/README.md) | Create and update species JSON documents, attach molecular and ecological data, and rebuild summary statistics. |
+| [`script/gene_tree/`](gene_tree/README.md) | Select representative genomes using assembly and BUSCO information and link selected BUSCO runs. This module prepares inputs; it does not by itself infer a phylogeny. |
+| [`script/archive/`](archive/README.md) | Earlier workflows retained for provenance. |
 
-## 整理原则
+## Processing sequence
 
-- `.py`、`.R`、`.sh` 脚本文件保持原位置，不再移动。
-- README、旧说明文档、运行日志、外部工具可以单独放入 `docs/`、`logs/`、`tools/` 等目录。
-- `__pycache__/`、`.venv/`、`.git/` 属于运行环境或缓存，不作为正式脚本内容。
-- 每个顶层文件夹都保留或补充 README，用中文说明该目录中的文件作用。
+1. Reconcile taxonomic names and review unresolved matches.
+2. Acquire and normalize each data type using its module guide.
+3. Inspect quality-control and manual-review outputs before integration.
+4. Build species-centered JSON records with `script/integration/run_json_pipeline.py`; run PDB integration separately if required.
+5. Rebuild summary statistics and generate figures from the final retained records, rather than intermediate metadata exports.
 
-## 推荐运行顺序
+These modules are independent utilities with different input requirements, not a single fully automated end-to-end pipeline. The repository does not include all external sequence files, reference resources or API caches needed to recreate the complete database.
 
-1. `clean_species/`：统一物种名和 taxonomy。
-2. `genome/`、`genome_anno/`、`COI/`、`distribution/`、`hostplant/`、`SRA/`：分别整理各数据类型。
-3. `json/run_json_pipeline.py`：把各类清洗结果汇总到 species JSON。
-4. `json/rebuild_log_json.py`：刷新统计信息。
+## Software and configuration
+
+Python requirements vary by module. Third-party imports include `pandas`, `requests`, `httpx`, `tqdm`, `openpyxl`, `beautifulsoup4` and `pycountry`; consult each script and the module-specific project files. R utilities require the packages imported by their source files. Shell utilities require Bash and standard command-line tools. Install the NCBI Datasets CLI separately for genome downloads.
+
+Use `--help` for argparse-based scripts. Some older utilities use environment variables or settings embedded in their source instead. Original input defaults may contain absolute server paths: supply your own paths before execution. Existing data paths such as `data/clean/SRA/` and `data/clean/COI/` are retained; script directory renaming does not rename those datasets.
+
+Set API credentials locally, for example through `NCBI_API_KEY`. Never commit API keys, request caches, virtual environments or downloaded tool binaries. Data source access and reuse remain subject to the respective providers' terms. A software/data license has not yet been assigned in this repository.
+
+## Version history
+
+Commit `c489990` preserves the original published directory snapshot, with credentials and runtime artifacts excluded. The reorganization changes script locations and documentation while retaining processing logic. See [directory migration](MIGRATION.md) for old-to-new paths. Archived files are historical inputs, intermediate results and alternative scripts; their counts are not authoritative release statistics.
