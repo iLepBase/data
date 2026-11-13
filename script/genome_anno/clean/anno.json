@@ -1,0 +1,9 @@
+{
+  "annotation_dir": "data/clean/genome/anno",
+  "counts": {
+    "cds": 1179,
+    "gff3": 1180,
+    "protein": 1179,
+    "total": 3538
+  }
+}

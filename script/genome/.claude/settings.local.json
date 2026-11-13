@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m py_compile /dataz/zhanglab-1/iLepbase/script/genome/down_ncbi_genome.py && echo \"Syntax OK\")"
+    ]
+  }
+}

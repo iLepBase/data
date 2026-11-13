@@ -1,0 +1,9 @@
+egg
+embryo
+larva
+instar
+prepupa
+pupa
+adult
+mixed
+unknown

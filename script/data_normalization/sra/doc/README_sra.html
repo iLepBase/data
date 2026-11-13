@@ -1,0 +1,286 @@
+<!DOCTYPE html><html><head>
+      <title>README_sra</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/zhanggroup-myh/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.22/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="sra-transcriptome-crawler">SRA Transcriptome Crawler </h1>
+<p>批量采集 NCBI SRA 中鳞翅目（Lepidoptera）转录组信息，并整合以下三类数据：</p>
+<ul>
+<li>本地 SRA CSV</li>
+<li>NCBI BioSample XML</li>
+<li>NCBI SRA RunInfo</li>
+</ul>
+<p>最终输出一张标准化的 CSV 表。</p>
+<h2 id="使用方法">使用方法 </h2>
+<h3 id="运行">运行 </h3>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>uv run sra-transcriptome-crawler <span class="token punctuation">\</span>
+  <span class="token parameter variable">--input</span> sra_ncbi_YYYYMMDD.csv <span class="token punctuation">\</span>
+  <span class="token parameter variable">--output</span> transcriptome_data_YYYYMMDD.csv <span class="token punctuation">\</span>
+  <span class="token parameter variable">--workers</span> <span class="token number">6</span> <span class="token punctuation">\</span>
+  --cache-db ./ncbi_request_cache.sqlite
+</code></pre><h3 id="命令行参数">命令行参数 </h3>
+<ul>
+<li><code>--input</code>：输入 CSV 路径，建议文件名格式为 <code>sra_ncbi_YYYYMMDD.csv</code></li>
+<li><code>--output</code>：输出 CSV 路径，建议文件名格式为 <code>transcriptome_data_YYYYMMDD.csv</code></li>
+<li><code>--api-key</code>：可选，NCBI API Key</li>
+<li><code>--cache-db</code>：可选，SQLite 缓存库路径；默认在输出目录创建 <code>ncbi_request_cache.sqlite</code></li>
+<li><code>--workers</code>：可选，并发工作线程数；默认有 API Key 时为 6，无 API Key 时为 3</li>
+</ul>
+<h2 id="io说明">I/O说明 </h2>
+<h3 id="相关文件">相关文件 </h3>
+<ul>
+<li>原始表：<code>/home/iLepbase/data/raw/SRA/sra_ncbi_20260323.csv</code></li>
+<li>选列表：<code>/home/iLepbase/data/raw/SRA/sra_ncbi_20260323_selected_columns.csv</code></li>
+<li>transcriptome 筛选表：<code>/home/iLepbase/data/raw/SRA/sra_ncbi_20260323_transcriptome.csv</code></li>
+<li>最终输出：<code>/home/iLepbase/data/clean/SRA/transcriptome_data_20260323.csv</code></li>
+<li>SQLite 缓存：<code>/home/iLepbase/data/clean/SRA/ncbi_request_cache.sqlite</code></li>
+<li>失败列表：<code>/home/iLepbase/data/clean/SRA/failed_accessions.txt</code></li>
+</ul>
+<h3 id="输入文件">输入文件 </h3>
+<p>按照 <code>鳞翅目转录组信息爬虫逻辑.docx</code>下载输入文件</p>
+<p><code>/home/iLepbase/data/raw/SRA/sra_ncbi_20260323.csv</code></p>
+<p>脚本会从输入 CSV 中读取并筛选：</p>
+<ul>
+<li><code>Library_Strategy == RNA-Seq</code></li>
+<li><code>Library_Source == TRANSCRIPTOMIC</code></li>
+</ul>
+<h3 id="输出文件">输出文件 </h3>
+<p>输出 CSV 包含以下 18 列：</p>
+<ol>
+<li><code>Experiment Accession</code></li>
+<li><code>Organism Name</code></li>
+<li><code>Instrument</code></li>
+<li><code>Sample Accession</code></li>
+<li><code>Total Size Mb</code></li>
+<li><code>Total Spots</code></li>
+<li><code>Total Bases</code></li>
+<li><code>Library Strategy</code></li>
+<li><code>Library Source</code></li>
+<li><code>Library Selection</code></li>
+<li><code>Tissue</code></li>
+<li><code>Sex</code></li>
+<li><code>Stage</code></li>
+<li><code>Collection Date</code></li>
+<li><code>Geographic location</code></li>
+<li><code>Run ID</code></li>
+<li><code>Published</code></li>
+<li><code>Download Link</code></li>
+</ol>
+<h3 id="数据统计">数据统计 </h3>
+<table>
+<thead>
+<tr>
+<th>对象</th>
+<th style="text-align:right">行数/数量</th>
+<th>口径</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sra_ncbi_20260323.csv</code></td>
+<td style="text-align:right">21475</td>
+<td>原始 SRA 记录</td>
+</tr>
+<tr>
+<td><code>sra_ncbi_20260323_selected_columns.csv</code></td>
+<td style="text-align:right">21475</td>
+<td>只选列，不筛行</td>
+</tr>
+<tr>
+<td><code>sra_ncbi_20260323_transcriptome.csv</code></td>
+<td style="text-align:right">19611</td>
+<td>过滤为 <code>RNA-SEQ</code> + <code>TRANSCRIPTOMIC</code> 后的 experiment 数</td>
+</tr>
+<tr>
+<td><code>transcriptome_data_20260323.csv</code></td>
+<td style="text-align:right">20374</td>
+<td>在 19611 个 experiment 基础上按 RunInfo 展开的最终输出行数</td>
+</tr>
+<tr>
+<td><code>transcriptome_data_20260323.csv</code> 中唯一 <code>Experiment Accession</code></td>
+<td style="text-align:right">19611</td>
+<td>experiment 层级</td>
+</tr>
+<tr>
+<td><code>transcriptome_data_20260323.csv</code> 中唯一 <code>Sample Accession</code></td>
+<td style="text-align:right">16667</td>
+<td>sample 层级</td>
+</tr>
+<tr>
+<td><code>transcriptome_data_20260323.csv</code> 中唯一 <code>Run ID</code></td>
+<td style="text-align:right">20362</td>
+<td>run 层级</td>
+</tr>
+<tr>
+<td><code>runinfo_cache</code></td>
+<td style="text-align:right">19611</td>
+<td>每个 experiment 一条缓存</td>
+</tr>
+<tr>
+<td><code>biosample_uid_lookup</code></td>
+<td style="text-align:right">16667</td>
+<td>每个唯一 sample lookup accession 一条缓存</td>
+</tr>
+<tr>
+<td><code>biosample_xml_cache</code></td>
+<td style="text-align:right">16652</td>
+<td>成功抓到 XML 的唯一 sample 数</td>
+</tr>
+<tr>
+<td><code>failed_accessions.txt</code></td>
+<td style="text-align:right">15</td>
+<td>本次 BioSample 抓取失败数</td>
+</tr>
+</tbody>
+</table>
+<h2 id="抓取逻辑">抓取逻辑 </h2>
+<h3 id="步骤-1筛选本地-sra-csv">步骤 1：筛选本地 SRA CSV </h3>
+<p>从本地 CSV 中读取记录，只保留：</p>
+<ul>
+<li><code>RNA-Seq</code></li>
+<li><code>TRANSCRIPTOMIC</code></li>
+</ul>
+<h3 id="步骤-2获取-biosample-属性">步骤 2：获取 BioSample 属性 </h3>
+<p>从 BioSample XML 中模糊匹配并提取：</p>
+<ul>
+<li><code>Tissue</code></li>
+<li><code>Sex</code></li>
+<li><code>Stage</code></li>
+<li><code>Collection Date</code></li>
+<li><code>Geographic location</code></li>
+</ul>
+<p>缺失值统一填充为 <code>N/A</code>。</p>
+<h3 id="步骤-3获取-run-信息">步骤 3：获取 Run 信息 </h3>
+<p>根据 <code>Experiment Accession</code> 查询 RunInfo，提取：</p>
+<ul>
+<li><code>Run ID</code></li>
+<li><code>Published</code></li>
+</ul>
+<p>并自动拼接下载链接：</p>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>https://sra-pub-run-odp.s3.amazonaws.com/sra/{Run_ID}/{Run_ID}
+</code></pre><h3 id="断点续传">断点续传 </h3>
+<p>脚本每处理 100 条记录自动保存一次进度。</p>
+<p>运行过程中会在输出目录生成：</p>
+<ul>
+<li><code>transcriptome_data_YYYYMMDD.checkpoint.json</code></li>
+<li><code>transcriptome_data_YYYYMMDD.partial.csv</code></li>
+<li><code>failed_accessions.txt</code></li>
+<li><code>ncbi_request_cache.sqlite</code></li>
+</ul>
+<p>说明：</p>
+<ul>
+<li>如果任务中断，再次执行相同命令会自动从断点继续</li>
+<li>任务正常完成后，<code>.checkpoint.json</code> 和 <code>.partial.csv</code> 会自动删除</li>
+<li><code>failed_accessions.txt</code> 会保留，方便后续重跑</li>
+</ul>
+<h3 id="失败重试与限速">失败重试与限速 </h3>
+<ul>
+<li>每个网络请求失败后自动重试 3 次</li>
+<li>每次重试间隔 5 秒</li>
+<li>无 API Key：最多 3 次请求/秒</li>
+<li>有 API Key：最多 10 次请求/秒</li>
+</ul>
+<h3 id="运行日志">运行日志 </h3>
+<p>脚本会在终端打印：</p>
+<ul>
+<li>当前正在处理的 <code>Experiment</code> 和 <code>Sample</code></li>
+<li>当前进度，例如 <code>Progress: 120/3587</code></li>
+<li>checkpoint 保存信息</li>
+<li>请求失败和重试信息</li>
+</ul>
+<h2 id="数据不一致说明">数据不一致说明 </h2>
+<h3 id="三个层级">三个层级 </h3>
+<ul>
+<li><code>Experiment Accession</code>：实验层级</li>
+<li><code>Sample Accession</code>：样本层级</li>
+<li><code>Run ID</code>：运行层级</li>
+</ul>
+<h3 id="说明">说明 </h3>
+<p>原始 SRA 表和 <code>selected_columns.csv</code> 行数应该一致</p>
+<h4 id="transcriptomecsv"><code>transcriptome.csv</code> </h4>
+<ul>
+<li>只保留 <code>Library Strategy = RNA-SEQ</code></li>
+<li>且 <code>Library Source = TRANSCRIPTOMIC</code></li>
+</ul>
+<h4 id="transcriptome_data_yyyymmddcsv"><code>transcriptome_data_YYYYMMDD.csv</code> </h4>
+<ul>
+<li>先继承 <code>transcriptome.csv</code> 里的实验记录</li>
+<li>再补 BioSample 字段</li>
+<li>再按 RunInfo 展开</li>
+<li>如果一个 <code>Experiment Accession</code> 对应多个 <code>Run ID</code>，最终输出会变成多行</li>
+<li>所以最终 CSV 行数通常大于等于 <code>transcriptome.csv</code></li>
+</ul>
+<h4 id="关于-transcriptomecsv-与-transcriptome_data_20260323csv-不一致">关于 <code>transcriptome.csv</code> 与 <code>transcriptome_data_20260323.csv</code> 不一致 </h4>
+<p>因为最终输出按 <code>Run ID</code> 展开。</p>
+<ul>
+<li>本次有 <code>379</code> 个 <code>Experiment Accession</code> 对应多个 <code>Run ID</code></li>
+<li>因此在 <code>19611</code> 条 experiment 记录基础上，多展开了 <code>763</code> 行</li>
+<li>最终得到 <code>20374</code> 行</li>
+<li>另外有 <code>12</code> 行没有拿到 <code>Run ID</code>，保留为 <code>Run ID = N/A</code></li>
+</ul>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>19611 个 experiment + 763 条多 run 展开出来的额外行 = 20374 行最终输出
+</code></pre><h4 id="关于-biosample_xml_cache-与transcriptomecsv-不一致">关于 <code>biosample_xml_cache</code> 与<code>transcriptome.csv</code> 不一致 </h4>
+<p>因为 BioSample 缓存按 <code>Sample Accession</code> 去重，不是按 <code>Experiment Accession</code>。</p>
+<p>存在很多 experiment 共用了同一个 sample的情况<br>
+例如同一个 <code>Sample Accession</code> 可能对应几十到上百个 experiment，比如</p>
+<ul>
+<li><code>SRS2147825</code> 对应 <code>128</code> 个不同 experiment</li>
+<li><code>SRS2531778</code> 对应 <code>128</code> 个不同 experiment</li>
+<li><code>SRS2004116</code> 对应 <code>116</code> 个不同 experiment</li>
+</ul>
+<h4 id="关于-biosample_uid_lookup-与-biosample_xml_cache-不一致">关于 <code>biosample_uid_lookup</code> 与 <code>biosample_xml_cache</code> 不一致 </h4>
+<p>本次有 15 个 accession 查到了 lookup 流程，但没有成功拿到 XML，所以：</p>
+<ul>
+<li><code>biosample_uid_lookup = 16667</code></li>
+<li><code>biosample_xml_cache = 16652</code></li>
+<li>差值正好等于 <code>failed_accessions.txt</code> 里的 15 条失败记录</li>
+</ul>
+<p>这 15 个失败 accession 为：</p>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>biosample:DRS020532
+biosample:DRS020533
+biosample:DRS020534
+biosample:DRS020535
+biosample:DRS020536
+biosample:DRS020537
+biosample:DRS020538
+biosample:DRS020539
+biosample:DRS020540
+biosample:DRS020541
+biosample:DRS020542
+biosample:DRS020543
+biosample:DRS377880
+biosample:SRS6872242
+biosample:SRS6872243
+</code></pre>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

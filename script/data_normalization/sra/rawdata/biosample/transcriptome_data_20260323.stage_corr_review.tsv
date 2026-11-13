@@ -1,0 +1,866 @@
+raw_stage	count	stage1_corr	stage2_corr	reason	stage2_reason
+N/A	9559	unknown		missing_or_unknown	blank_no_specific_detail
+adult	1649	adult		exact	blank_no_specific_detail
+pupa	461	pupa		exact	blank_no_specific_detail
+not collected	356	unknown		missing_or_unknown	blank_no_specific_detail
+Adult	310	adult		exact	blank_no_specific_detail
+larva	272	larva		exact	blank_no_specific_detail
+5th instar	272	larva	L5	pattern:instar	specific_instar
+not applicable	267	unknown		missing_or_unknown	blank_no_specific_detail
+5th instar larvae	239	larva	L5	pattern:instar	specific_instar
+Larvae	220	larva		pattern:larva	blank_no_specific_detail
+larvae	194	larva		pattern:larva	blank_no_specific_detail
+4th instar stage larvae, 1st generation and neonate stage larvae, 2nd generation	128	larva	Mixed	pattern:instar	mixed_multi_instar
+Newly emerged	125	adult		pattern:adult	blank_no_specific_detail
+egg	120	egg		exact	blank_no_specific_detail
+embryo	106	embryo		exact	blank_no_specific_detail
+missing	96	unknown		missing_or_unknown	blank_no_specific_detail
+4th instar	95	larva	L4	pattern:instar	specific_instar
+Day 0	90	unknown	D0	no_match	time_only_day
+larva, 4th instar	82	larva	L4	pattern:instar	specific_instar
+1	82	unknown		no_match	blank_no_specific_detail
+caterpillar	72	larva		pattern:larva	blank_no_specific_detail
+third instar	72	larva	L3	pattern:instar	specific_instar
+5 days old	63	unknown	D5	no_match	time_only_day
+2	62	unknown		no_match	blank_no_specific_detail
+6 days post eclosion	60	adult		pattern:adult	blank_no_specific_detail
+3rd larval stage	60	larva		pattern:larva	blank_no_specific_detail
+3rd instar	59	larva	L3	pattern:instar	specific_instar
+2nd instar	58	larva	L2	pattern:instar	specific_instar
+fifth instar	55	larva	L5	pattern:instar	specific_instar
+12days post hatch + exposure time	54	larva	L1	pattern:larva	neonate_to_first_instar
+L5 larvae	54	larva	L5	pattern:instar	specific_instar
+L5	52	larva	L5	pattern:instar	specific_instar
+fifth instar larvae	52	larva	L5	pattern:instar	specific_instar
+InstarV	50	larva	L5	pattern:instar	specific_instar
+fourth instar	48	larva	L4	pattern:instar	specific_instar
+pupae	48	pupa		pattern:pupa	blank_no_specific_detail
+P0	48	pupa	P0	pattern:pupa	specific_pupa_code
+Early pupa (3-6h after pupation)	47	pupa	P0	pattern:pupa	specific_pupa_hour
+4th instar larvae	45	larva	L4	pattern:instar	specific_instar
+Last inster larvae	44	larva	Last instar	pattern:larva	last_instar
+3 day	44	unknown	D3	no_match	time_only_day
+five-day old fifth instar	42	larva	L5D5	pattern:instar	specific_instar_day
+Pupa	41	pupa		exact	blank_no_specific_detail
+L3	40	larva	L3	pattern:instar	specific_instar
+adults	39	adult		pattern:adult	blank_no_specific_detail
+Last instar larvae	39	larva	Last instar	pattern:instar	last_instar
+Larva	38	larva		exact	blank_no_specific_detail
+L4	38	larva	L4	pattern:instar	specific_instar
+3rd Instar Larva	37	larva	L3	pattern:instar	specific_instar
+5	37	unknown		no_match	blank_no_specific_detail
+3rd Instar	36	larva	L3	pattern:instar	specific_instar
+5th instar day 3	36	larva	L5D3	pattern:instar	specific_instar_day
+P2	36	pupa	P2	pattern:pupa	specific_pupa_code
+larval stage	34	larva		pattern:larva	blank_no_specific_detail
+6th instar larvae	34	larva	L6	pattern:instar	specific_instar
+pre-pupa	33	prepupa	PP	pattern:prepupa	same_as_stage_corr
+1 to 14 days after emergence	32	adult		pattern:adult	blank_no_specific_detail
+60% wanderer	32	larva		pattern:larva	blank_no_specific_detail
+P4	31	pupa	P4	pattern:pupa	specific_pupa_code
+108 hour post oviposition	30	embryo		pattern:embryo	blank_no_specific_detail
+3rd-instar	30	larva	L3	pattern:instar	specific_instar
+Three days for the five ages	30	larva	L5	pattern:instar	specific_instar
+3rd-Day fifth-instar larva	30	larva	L5D3	pattern:instar	specific_instar_day
+fifth instar day 3	30	larva	L5D3	pattern:instar	specific_instar_day
+14 days after pupation	30	pupa	P14	pattern:pupa	specific_pupa_day
+2 days old	30	unknown	D2	no_match	time_only_day
+3rd	29	unknown		no_match	blank_no_specific_detail
+not provided	27	unknown		missing_or_unknown	blank_no_specific_detail
+Embryo	26	embryo		exact	blank_no_specific_detail
+5-instars	24	larva		pattern:instar	blank_no_specific_detail
+third larval	24	larva		pattern:larva	blank_no_specific_detail
+3rd instar larva	24	larva	L3	pattern:instar	specific_instar
+L5D3	24	larva	L5D3	pattern:instar	specific_instar_day
+day 3 after pupation	24	pupa	P3	pattern:pupa	specific_pupa_day
+1 week	24	unknown	W1	no_match	time_only_week
+5th Instar	23	larva	L5	pattern:instar	specific_instar
+4th larva	22	larva	L4	pattern:larva	specific_instar
+day 1 after pupation	22	pupa	P1	pattern:pupa	specific_pupa_day
+Larval	21	larva		pattern:larva	blank_no_specific_detail
+InstarIII	21	larva	L3	pattern:instar	specific_instar
+third instar larvae	21	larva	L3	pattern:instar	specific_instar
+4th instar caterpillars	21	larva	L4	pattern:instar	specific_instar
+5th instar larva	21	larva	L5	pattern:instar	specific_instar
+P9	21	pupa	P9	pattern:pupa	specific_pupa_code
+5 th instar	20	larva	L5	pattern:instar	specific_instar
+L5 wandering larvae	20	larva	L5	pattern:instar	specific_instar
+Late-pupal	20	pupa		pattern:pupa	blank_no_specific_detail
+melanin stage	20	unknown		no_match	blank_no_specific_detail
+four instar	19	larva	L4	pattern:instar	specific_instar
+P3	19	pupa	P3	pattern:pupa	specific_pupa_code
+P6	19	pupa	P6	pattern:pupa	specific_pupa_code
+4-6 days adults	18	adult		pattern:adult	blank_no_specific_detail
+The third day of emergence	18	adult	D3	pattern:adult	time_only_day
+larvae stage 5	18	larva		pattern:larva	blank_no_specific_detail
+larval	18	larva		pattern:larva	blank_no_specific_detail
+3rd instar larvae	18	larva	L3	pattern:instar	specific_instar
+day 0 of 3rd instar larvae	18	larva	L3D0	pattern:instar	specific_instar_day
+4 th instar	18	larva	L4	pattern:instar	specific_instar
+four inatsr	18	larva	L4	pattern:instar	specific_instar
+fourth instar larvae	18	larva	L4	pattern:instar	specific_instar
+five age	18	larva	L5	pattern:instar	specific_instar
+3 day of fifth instar larvae	18	larva	L5D3	pattern:instar	specific_instar_day
+third day of the fifth instar	18	larva	L5D3	pattern:instar	specific_instar_day
+PP	18	prepupa	PP	pattern:prepupa	same_as_stage_corr
+P1	18	pupa	P1	pattern:pupa	specific_pupa_code
+Day 3 Post-Pupation	18	pupa	P3	pattern:pupa	specific_pupa_day
+1 day	18	unknown	D1	no_match	time_only_day
+3 days old	18	unknown	D3	no_match	time_only_day
+Four weeks	18	unknown	W4	no_match	time_only_week
+3-d-old	17	unknown		no_match	blank_no_specific_detail
+2 days post eclosion	16	adult		pattern:adult	blank_no_specific_detail
+2-day-old adult	16	adult	D2	pattern:adult	time_only_day
+3rd larvae	16	larva	L3	pattern:larva	specific_instar
+Forth-instar	16	larva	L4	pattern:instar	specific_instar
+larval 5th instar	16	larva	L5	pattern:instar	specific_instar
+L5D4	16	larva	L5D4	pattern:instar	specific_instar_day
+day 5 of the fifth instar larvae	16	larva	L5D5	pattern:instar	specific_instar_day
+15% pupa	16	pupa		pattern:pupa	blank_no_specific_detail
+24h	16	unknown	D1	no_match	time_only_hour_as_day
+3 instars	15	larva		pattern:instar	blank_no_specific_detail
+3rd instar of the Asian corn borer	15	larva	L3	pattern:instar	specific_instar
+the fifth instar larvae	15	larva	L5	pattern:instar	specific_instar
+Mature larva	15	larva	Last instar	pattern:larva	last_instar
+larvae (5th instars Larva), pupa, female adults and male adults.	15	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+day1 pupa	15	pupa	P1	pattern:pupa	specific_pupa_day
+3-24 days	15	unknown		no_match	blank_no_specific_detail
+W	15	unknown		no_match	blank_no_specific_detail
+1st instar larvae	14	larva	L1	pattern:instar	specific_instar
+feeding 5th instar	14	larva	L5	pattern:instar	specific_instar
+fifth instar larva	14	larva	L5	pattern:instar	specific_instar
+larva final stage	14	larva	Last instar	pattern:larva	last_instar
+prepupa	14	prepupa	PP	exact	same_as_stage_corr
+second instar	13	larva	L2	pattern:instar	specific_instar
+adult-Within six hours of emergence	12	adult		pattern:adult	blank_no_specific_detail
+imago	12	adult		pattern:adult	blank_no_specific_detail
+48 hours -post eclosion	12	adult	D2	pattern:adult	time_only_hour_as_day
+Embryo 69hpo	12	embryo		pattern:embryo	blank_no_specific_detail
+Larval; Pre-pupation	12	larva		pattern:larva	blank_no_specific_detail
+neonate	12	larva	L1	pattern:larva	neonate_to_first_instar
+4 nd instar larvae	12	larva	L4	pattern:instar	specific_instar
+The 4th instar larvae	12	larva	L4	pattern:instar	specific_instar
+Larval; 5th Instar	12	larva	L5	pattern:instar	specific_instar
+the first day of fifth instar	12	larva	L5D1	pattern:instar	specific_instar_day
+Day3, Instar5	12	larva	L5D3	pattern:instar	specific_instar_day
+fith-instar day-3 larvae	12	larva	L5D3	pattern:instar	specific_instar_day
+third day of fifth instar	12	larva	L5D3	pattern:instar	specific_instar_day
+day-5 fifth-instar	12	larva	L5D5	pattern:instar	specific_instar_day
+adults and third instar larvae	12	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+3 to 6 hours post pupation	12	pupa		pattern:pupa	blank_no_specific_detail
+Pupa; <48 hours post-pupation	12	pupa		pattern:pupa	blank_no_specific_detail
+Pupa; > 48 hours post-pupation	12	pupa		pattern:pupa	blank_no_specific_detail
+P8	12	pupa	P8	pattern:pupa	specific_pupa_code
+52-54% stage	12	unknown		no_match	blank_no_specific_detail
+5th	12	unknown		no_match	blank_no_specific_detail
+0-24 h	12	unknown	D1	no_match	time_only_hour_as_day
+Day 3 of the third trimester	12	unknown	D3	no_match	time_only_day
+2 weeks	12	unknown	W2	no_match	time_only_week
+L2	11	larva	L2	pattern:instar	specific_instar
+L3 larvae	11	larva	L3	pattern:instar	specific_instar
+Third instar	11	larva	L3	pattern:instar	specific_instar
+pupal	11	pupa		pattern:pupa	blank_no_specific_detail
+3rd day	11	unknown	D3	no_match	time_only_day
+larva 5 days	10	larva		pattern:larva	blank_no_specific_detail
+4 instar	10	larva	L4	pattern:instar	specific_instar
+Fourth instar	10	larva	L4	pattern:instar	specific_instar
+L4 larvae	10	larva	L4	pattern:instar	specific_instar
+first day of fifth larvae	10	larva	L5D1	pattern:larva	specific_instar_day
+Sixth-instar larvae at 72 h post-ecdysis	10	larva	L6	pattern:instar	specific_instar
+1day pupa	10	pupa		pattern:pupa	blank_no_specific_detail
+72 hours from pupation	10	pupa	P3	pattern:pupa	specific_pupa_hour
+5 days from pupation	10	pupa	P5	pattern:pupa	specific_pupa_day
+1 to 7 days after pupation	10	pupa	P7	pattern:pupa	specific_pupa_day
+7 days from pupation (Melanin)	10	pupa	P7	pattern:pupa	specific_pupa_day
+second day after eclosion	9	adult	D2	pattern:adult	time_only_day
+Egg	9	egg		exact	blank_no_specific_detail
+Third-instar	9	larva	L3	pattern:instar	specific_instar
+5 instar larva	9	larva	L5	pattern:instar	specific_instar
+5L6D	9	larva	L5D6	pattern:instar	specific_instar_day
+IV -VI larvae instar	9	larva	Mixed	pattern:instar	mixed_multi_instar
+pre pupa	9	prepupa	PP	pattern:prepupa	same_as_stage_corr
+3 d pupa	9	pupa		pattern:pupa	blank_no_specific_detail
+Pupal	9	pupa		pattern:pupa	blank_no_specific_detail
+pupa (24h)	9	pupa		pattern:pupa	blank_no_specific_detail
+pupa (48h)	9	pupa		pattern:pupa	blank_no_specific_detail
+72 hours after pupation	9	pupa	P3	pattern:pupa	specific_pupa_hour
+6 days after pupation	9	pupa	P6	pattern:pupa	specific_pupa_day
+3 days	9	unknown		no_match	blank_no_specific_detail
+5 years old	9	unknown		no_match	blank_no_specific_detail
+3 Day	9	unknown	D3	no_match	time_only_day
+five week	9	unknown	W5	no_match	time_only_week
+48-hour post emergence	8	adult		pattern:adult	blank_no_specific_detail
+Imago	8	adult		pattern:adult	blank_no_specific_detail
+days of larval stage	8	larva		pattern:larva	blank_no_specific_detail
+larva 10 days	8	larva		pattern:larva	blank_no_specific_detail
+larva 1 day	8	larva	D1	pattern:larva	time_only_day
+L2 larvae	8	larva	L2	pattern:instar	specific_instar
+first day of 2nd larva	8	larva	L2D1	pattern:larva	specific_instar_day
+5 instar	8	larva	L5	pattern:instar	specific_instar
+instar5	8	larva	L5	pattern:instar	specific_instar
+Day 4 fifth instar larvae	8	larva	L5D4	pattern:instar	specific_instar_day
+instar6	8	larva	L6	pattern:instar	specific_instar
+15% pupal	8	pupa		pattern:pupa	blank_no_specific_detail
+50% pre-pupal	8	pupa		pattern:pupa	blank_no_specific_detail
+50% pupal	8	pupa		pattern:pupa	blank_no_specific_detail
+Mid-pupal	8	pupa		pattern:pupa	blank_no_specific_detail
+2 days after pupation	8	pupa	P2	pattern:pupa	specific_pupa_day
+20-22 hrs	8	unknown		no_match	blank_no_specific_detail
+0h	8	unknown	D0	no_match	time_only_hour_as_day
+Adult Silkworm	7	adult		pattern:adult	blank_no_specific_detail
+Adut	7	adult		pattern:adult	blank_no_specific_detail
+4th instar larva	7	larva	L4	pattern:instar	specific_instar
+5th larva	7	larva	L5	pattern:larva	specific_instar
+L5D1	7	larva	L5D1	pattern:instar	specific_instar_day
+Late instar	7	larva	Last instar	pattern:instar	last_instar
+last instar	7	larva	Last instar	pattern:instar	last_instar
+Pupae	7	pupa		pattern:pupa	blank_no_specific_detail
+day6 pupa	7	pupa	P6	pattern:pupa	specific_pupa_day
+3	7	unknown		no_match	blank_no_specific_detail
+36 hours after eclosion	6	adult		pattern:adult	blank_no_specific_detail
+Newly emerged adult	6	adult		pattern:adult	blank_no_specific_detail
+adult silkworm	6	adult		pattern:adult	blank_no_specific_detail
+1 day old adult	6	adult	D1	pattern:adult	time_only_day
+12 hours after oviposition	6	embryo		pattern:embryo	blank_no_specific_detail
+174 h post oviposition	6	embryo		pattern:embryo	blank_no_specific_detail
+36h after oviposition	6	embryo		pattern:embryo	blank_no_specific_detail
+6 hours after oviposition	6	embryo		pattern:embryo	blank_no_specific_detail
+immediately after oviposition	6	embryo		pattern:embryo	blank_no_specific_detail
+48 hours after oviposition	6	embryo	D2	pattern:embryo	time_only_hour_as_day
+Neonatal Larvae	6	larva		pattern:larva	blank_no_specific_detail
+fourth larval instar	6	larva		pattern:instar	blank_no_specific_detail
+instar fifth	6	larva		pattern:instar	blank_no_specific_detail
+larvae stage	6	larva		pattern:larva	blank_no_specific_detail
+larval wandering stage	6	larva		pattern:larva	blank_no_specific_detail
+sixth larval instar	6	larva		pattern:instar	blank_no_specific_detail
+wandering	6	larva		pattern:larva	blank_no_specific_detail
+7-day old larvae	6	larva	D7	pattern:larva	time_only_day
+1st instar larva	6	larva	L1	pattern:instar	specific_instar
+first larvae	6	larva	L1	pattern:larva	specific_instar
+2nd-instar	6	larva	L2	pattern:instar	specific_instar
+2th instar larva	6	larva	L2	pattern:instar	specific_instar
+2nd and 3rd instar	6	larva	L3	pattern:instar	specific_instar
+3 instar larva	6	larva	L3	pattern:instar	specific_instar
+3rd instar larval	6	larva	L3	pattern:instar	specific_instar
+Third Instar	6	larva	L3	pattern:instar	specific_instar
+third instar initiation stage	6	larva	L3	pattern:instar	specific_instar
+third instar larva	6	larva	L3	pattern:instar	specific_instar
+4th-instar	6	larva	L4	pattern:instar	specific_instar
+4L4D	6	larva	L4D4	pattern:instar	specific_instar_day
+3rd of the 5th instar	6	larva	L5	pattern:instar	specific_instar
+5 instar larvae	6	larva	L5	pattern:instar	specific_instar
+5L	6	larva	L5	pattern:instar	specific_instar
+Fifth instar	6	larva	L5	pattern:instar	specific_instar
+Fifth instar larva	6	larva	L5	pattern:instar	specific_instar
+Fifth-instar larvae	6	larva	L5	pattern:instar	specific_instar
+Five Ages	6	larva	L5	pattern:instar	specific_instar
+fifth instar day 2	6	larva	L5D2	pattern:instar	specific_instar_day
+3rd day of fifth larva	6	larva	L5D3	pattern:larva	specific_instar_day
+5L3d	6	larva	L5D3	pattern:instar	specific_instar_day
+5th instar silkworm larvae (3-day-old)	6	larva	L5D3	pattern:instar	specific_instar_day
+Third day of fifth instar	6	larva	L5D3	pattern:instar	specific_instar_day
+day 3 of 5th instar larvae	6	larva	L5D3	pattern:instar	specific_instar_day
+the day 3 of the fifth instar	6	larva	L5D3	pattern:instar	specific_instar_day
+day 5 of fifth-instar larvae	6	larva	L5D5	pattern:instar	specific_instar_day
+L5D6	6	larva	L5D6	pattern:instar	specific_instar_day
+day 6 of the fifth-instar larvae	6	larva	L5D6	pattern:instar	specific_instar_day
+Sixth-instar larvae at 48 h post-ecdysis	6	larva	L6	pattern:instar	specific_instar
+last instar larvae	6	larva	Last instar	pattern:instar	last_instar
+4th instar just emerged, suvivor of 2nd instar fed on fipronil	6	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+adult and larvae	6	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+Pupal stage	6	pupa		pattern:pupa	blank_no_specific_detail
+Silkworm chrysalis	6	pupa		pattern:pupa	blank_no_specific_detail
+Day 1 pupae	6	pupa	P1	pattern:pupa	specific_pupa_day
+P14	6	pupa	P14	pattern:pupa	specific_pupa_code
+Pupal day 14	6	pupa	P14	pattern:pupa	specific_pupa_day
+P2 stage	6	pupa	P2	pattern:pupa	specific_pupa_code
+Day 3 pupae	6	pupa	P3	pattern:pupa	specific_pupa_day
+Pupal day 6	6	pupa	P6	pattern:pupa	specific_pupa_day
+0 to 11 days	6	unknown		no_match	blank_no_specific_detail
+15d	6	unknown		no_match	blank_no_specific_detail
+Five-year-old silkworm	6	unknown		no_match	blank_no_specific_detail
+M	6	unknown		no_match	blank_no_specific_detail
+anterior	6	unknown		no_match	blank_no_specific_detail
+before and after mating	6	unknown		no_match	blank_no_specific_detail
+distal	6	unknown		no_match	blank_no_specific_detail
+early (yellow) ommochrome	6	unknown		no_match	blank_no_specific_detail
+five	6	unknown		no_match	blank_no_specific_detail
+four	6	unknown		no_match	blank_no_specific_detail
+medial	6	unknown		no_match	blank_no_specific_detail
+na	6	unknown		missing_or_unknown	blank_no_specific_detail
+nymphas	6	unknown		no_match	blank_no_specific_detail
+posterior	6	unknown		no_match	blank_no_specific_detail
+proximal	6	unknown		no_match	blank_no_specific_detail
+day1	6	unknown	D1	no_match	time_only_day
+two-day-old	6	unknown	D2	no_match	time_only_day
+3-day	6	unknown	D3	no_match	time_only_day
+3-day-old	6	unknown	D3	no_match	time_only_day
+72 Hour	6	unknown	D3	no_match	time_only_hour_as_day
+72h	6	unknown	D3	no_match	time_only_hour_as_day
+the third day	6	unknown	D3	no_match	time_only_day
+6 day post parasitization	6	unknown	D6	no_match	time_only_day
+4 weeks	6	unknown	W4	no_match	time_only_week
+adult curassavica	5	adult		pattern:adult	blank_no_specific_detail
+adult incarnata	5	adult		pattern:adult	blank_no_specific_detail
+eggs	5	egg		pattern:egg	blank_no_specific_detail
+instars	5	larva		pattern:instar	blank_no_specific_detail
+third-instar curassavica	5	larva	L3	pattern:instar	specific_instar
+third-instar incarnata	5	larva	L3	pattern:instar	specific_instar
+Fifth instar larvae	5	larva	L5	pattern:instar	specific_instar
+fifth-instar curassavica	5	larva	L5	pattern:instar	specific_instar
+fifth-instar incarnata	5	larva	L5	pattern:instar	specific_instar
+early-pupa curassavica	5	pupa		pattern:pupa	blank_no_specific_detail
+early-pupa incarnata	5	pupa		pattern:pupa	blank_no_specific_detail
+late-pupa curassavica	5	pupa		pattern:pupa	blank_no_specific_detail
+late-pupa incarnata	5	pupa		pattern:pupa	blank_no_specific_detail
+Pupal day 18	5	pupa	P18	pattern:pupa	specific_pupa_day
+P_mid	5	unknown		no_match	blank_no_specific_detail
+Adults	4	adult		pattern:adult	blank_no_specific_detail
+adults of eclosion at first day	4	adult	D1	pattern:adult	time_only_day
+one-day-old adults	4	adult	D1	pattern:adult	time_only_day
+1 to 2 day old adult	4	adult	D2	pattern:adult	time_only_day
+8 days post-egg laying, E8D	4	egg		pattern:egg	blank_no_specific_detail
+egg stage	4	egg		pattern:egg	blank_no_specific_detail
+120 hpo	4	embryo		pattern:embryo	blank_no_specific_detail
+168 hpo	4	embryo		pattern:embryo	blank_no_specific_detail
+192 hpo	4	embryo		pattern:embryo	blank_no_specific_detail
+216 hpo	4	embryo		pattern:embryo	blank_no_specific_detail
+24 hpo	4	embryo		pattern:embryo	blank_no_specific_detail
+72 hpo	4	embryo		pattern:embryo	blank_no_specific_detail
+embryo 12hrs	4	embryo		pattern:embryo	blank_no_specific_detail
+embryo 3hrs	4	embryo		pattern:embryo	blank_no_specific_detail
+embryo 24hrs	4	embryo	D1	pattern:embryo	time_only_hour_as_day
+1st to 9th instars	4	larva		pattern:instar	blank_no_specific_detail
+Larval stage 2	4	larva		pattern:larva	blank_no_specific_detail
+Larval stage 4	4	larva		pattern:larva	blank_no_specific_detail
+final instar	4	larva		pattern:instar	blank_no_specific_detail
+first larval molting, 1LM	4	larva		pattern:larva	blank_no_specific_detail
+last-instar larvae	4	larva		pattern:instar	blank_no_specific_detail
+1 day larvae	4	larva	D1	pattern:larva	time_only_day
+larvae of first instar stage	4	larva	L1	pattern:instar	specific_instar
+neonate larvae	4	larva	L1	pattern:larva	neonate_to_first_instar
+day 1 of first-instar larvae, 1L1D	4	larva	L1D1	pattern:instar	specific_instar_day
+2nd instar larvae	4	larva	L2	pattern:instar	specific_instar
+3 instar larvae	4	larva	L3	pattern:instar	specific_instar
+third-instar larvae	4	larva	L3	pattern:instar	specific_instar
+1-5 instar	4	larva	L5	pattern:instar	specific_instar
+5th instar larvae (L5)	4	larva	L5	pattern:instar	specific_instar
+L5 larva	4	larva	L5	pattern:instar	specific_instar
+Mid-5th instar	4	larva	L5	pattern:instar	specific_instar
+fifth instar day 3 to day 8 before spinning	4	larva	L5	pattern:instar	specific_instar
+larvae of fifth instar stage	4	larva	L5	pattern:instar	specific_instar
+the third of fifth instar	4	larva	L5	pattern:instar	specific_instar
+5th instar larva, day 2	4	larva	L5D2	pattern:instar	specific_instar_day
+day 2 of 5th instar	4	larva	L5D2	pattern:instar	specific_instar_day
+5th instar 3rd day	4	larva	L5D3	pattern:instar	specific_instar_day
+day 3 of the fifth instar larvae	4	larva	L5D3	pattern:instar	specific_instar_day
+day3-fifth instar larval stage	4	larva	L5D3	pattern:instar	specific_instar_day
+5th instar larva, day 4	4	larva	L5D4	pattern:instar	specific_instar_day
+day-6 fifth instar larvae	4	larva	L5D6	pattern:instar	specific_instar_day
+5th instar larva, day 8	4	larva	L5D8	pattern:instar	specific_instar_day
+Sixth-instar larvae at 24 h post-ecdysis	4	larva	L6	pattern:instar	specific_instar
+L4-L5	4	larva	Mixed	pattern:instar	mixed_multi_instar
+fourth instar molting to day 2 of fifth instar	4	larva	Mixed	pattern:instar	mixed_multi_instar
+2nd instar just emerged	4	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+Prepupal larva	4	prepupa	PP	pattern:prepupa	same_as_stage_corr
+Ommochrome stage pupae	4	pupa		pattern:pupa	blank_no_specific_detail
+pre-pigment pupa	4	pupa		pattern:pupa	blank_no_specific_detail
+pupa (24hrs after pupation)	4	pupa	P1	pattern:pupa	specific_pupa_hour
+P7	4	pupa	P7	pattern:pupa	specific_pupa_code
+21 to 29	4	unknown		no_match	blank_no_specific_detail
+6h	4	unknown		no_match	blank_no_specific_detail
+78 hours	4	unknown		no_match	blank_no_specific_detail
+BmN4_cellline	4	unknown		no_match	blank_no_specific_detail
+feedfing on B73 2h	4	unknown		no_match	blank_no_specific_detail
+feedfing on B73 6h	4	unknown		no_match	blank_no_specific_detail
+feedfing on Xi502 2h	4	unknown		no_match	blank_no_specific_detail
+feedfing on Xi502 6h	4	unknown		no_match	blank_no_specific_detail
+late (orange/red) ommochrome	4	unknown		no_match	blank_no_specific_detail
+whole	4	unknown		no_match	blank_no_specific_detail
+feedfing on B73 24h	4	unknown	D1	no_match	time_only_hour_as_day
+feedfing on Xi502 24h	4	unknown	D1	no_match	time_only_hour_as_day
+1 to 2 day	4	unknown	D2	no_match	time_only_day
+2-3 day old	4	unknown	D3	no_match	time_only_day
+96 hours	4	unknown	D4	no_match	time_only_hour_as_day
+120 hours	4	unknown	D5	no_match	time_only_hour_as_day
+Day 5	4	unknown	D5	no_match	time_only_day
+Day 6	4	unknown	D6	no_match	time_only_day
+Adult female	3	adult		pattern:adult	blank_no_specific_detail
+Adult male	3	adult		pattern:adult	blank_no_specific_detail
+Diapause larva	3	larva		pattern:larva	blank_no_specific_detail
+Early instar	3	larva		pattern:instar	blank_no_specific_detail
+Larvae; Instars I,II	3	larva		pattern:instar	blank_no_specific_detail
+Larvae; Instars IV,V	3	larva		pattern:instar	blank_no_specific_detail
+Larval stage 5	3	larva		pattern:larva	blank_no_specific_detail
+early wandering stage	3	larva		pattern:larva	blank_no_specific_detail
+final instar larvae	3	larva		pattern:instar	blank_no_specific_detail
+five instars	3	larva		pattern:instar	blank_no_specific_detail
+molting stage I	3	larva		pattern:instar	blank_no_specific_detail
+molting stage II	3	larva		pattern:instar	blank_no_specific_detail
+molting stage III	3	larva		pattern:instar	blank_no_specific_detail
+molting stage IV	3	larva		pattern:instar	blank_no_specific_detail
+molting stage V	3	larva		pattern:instar	blank_no_specific_detail
+1st instar	3	larva	L1	pattern:instar	specific_instar
+1st instar of the Asian corn borer	3	larva	L1	pattern:instar	specific_instar
+L1 larvae	3	larva	L1	pattern:instar	specific_instar
+Neonate	3	larva	L1	pattern:larva	neonate_to_first_instar
+first instar larva	3	larva	L1	pattern:instar	specific_instar
+2nd instar larva	3	larva	L2	pattern:instar	specific_instar
+second instar larvae	3	larva	L2	pattern:instar	specific_instar
+Third Instar Larva	3	larva	L3	pattern:instar	specific_instar
+Third-Instar Larva	3	larva	L3	pattern:instar	specific_instar
+Fourth instar larvae	3	larva	L4	pattern:instar	specific_instar
+fourth-instar larvae	3	larva	L4	pattern:instar	specific_instar
+4L2D	3	larva	L4D2	pattern:instar	specific_instar_day
+1 to 5 instar	3	larva	L5	pattern:instar	specific_instar
+5th instar of the Asian corn borer	3	larva	L5	pattern:instar	specific_instar
+Larva 5th Instar	3	larva	L5	pattern:instar	specific_instar
+day seven of fifth instar	3	larva	L5	pattern:instar	specific_instar
+day three of fifth instar	3	larva	L5	pattern:instar	specific_instar
+diapause destined for 5th instar	3	larva	L5	pattern:instar	specific_instar
+nondiapause for 5th instar	3	larva	L5	pattern:instar	specific_instar
+late instar larva	3	larva	Last instar	pattern:instar	last_instar
+various life stages (larva, pupa, adult)	3	mixed	Mixed	mixed_explicit	same_as_stage_corr
+12 hours post-prepupa	3	prepupa	PP	pattern:prepupa	same_as_stage_corr
+16 hours post-prepupa	3	prepupa	PP	pattern:prepupa	same_as_stage_corr
+4 hours post-prepupa	3	prepupa	PP	pattern:prepupa	same_as_stage_corr
+8 hours post-prepupa	3	prepupa	PP	pattern:prepupa	same_as_stage_corr
+Female pupae	3	pupa		pattern:pupa	blank_no_specific_detail
+Pre-pupal stage	3	pupa		pattern:pupa	blank_no_specific_detail
+diapause destined for pupa 1 day	3	pupa		pattern:pupa	blank_no_specific_detail
+diapause destined for pupa 10 day	3	pupa		pattern:pupa	blank_no_specific_detail
+nondiapause for pupa 1 day	3	pupa		pattern:pupa	blank_no_specific_detail
+nondiapause for pupa 10 day	3	pupa		pattern:pupa	blank_no_specific_detail
+Pupa day 0	3	pupa	P0	pattern:pupa	specific_pupa_day
+1 day post-pupa	3	pupa	P1	pattern:pupa	specific_pupa_day
+P13	3	pupa	P13	pattern:pupa	specific_pupa_code
+2 days post-pupa	3	pupa	P2	pattern:pupa	specific_pupa_day
+Pupa day 2	3	pupa	P2	pattern:pupa	specific_pupa_day
+3 days post-pupa	3	pupa	P3	pattern:pupa	specific_pupa_day
+Pupa day 4	3	pupa	P4	pattern:pupa	specific_pupa_day
+Pupa day 6	3	pupa	P6	pattern:pupa	specific_pupa_day
+0 to 3 days	3	unknown		no_match	blank_no_specific_detail
+1-30 Days	3	unknown		no_match	blank_no_specific_detail
+7D	3	unknown		no_match	blank_no_specific_detail
+W0	3	unknown		no_match	blank_no_specific_detail
+n	3	unknown		no_match	blank_no_specific_detail
+the 12th	3	unknown		no_match	blank_no_specific_detail
+the 4th	3	unknown		no_match	blank_no_specific_detail
+unknown	3	unknown		missing_or_unknown	blank_no_specific_detail
+day 13	3	unknown	D13	no_match	time_only_day
+day 14	3	unknown	D14	no_match	time_only_day
+day 15	3	unknown	D15	no_match	time_only_day
+day 16	3	unknown	D16	no_match	time_only_day
+20-hydroxyecdysone treated day 17	3	unknown	D17	no_match	time_only_day
+day 17	3	unknown	D17	no_match	time_only_day
+day 18	3	unknown	D18	no_match	time_only_day
+Adult silkworm	2	adult		pattern:adult	blank_no_specific_detail
+Freshly eclosed	2	adult		pattern:adult	blank_no_specific_detail
+Newly emerged adults	2	adult		pattern:adult	blank_no_specific_detail
+immediately after eclosion	2	adult		pattern:adult	blank_no_specific_detail
+the stage of adult	2	adult		pattern:adult	blank_no_specific_detail
+3-day-old adult	2	adult	D3	pattern:adult	time_only_day
+adult, 2-3 days old	2	adult	D3	pattern:adult	time_only_day
+orange egg	2	egg		pattern:egg	blank_no_specific_detail
+12 hour post oviposition	2	embryo		pattern:embryo	blank_no_specific_detail
+36 hour post oviposition	2	embryo		pattern:embryo	blank_no_specific_detail
+60 hour post oviposition	2	embryo		pattern:embryo	blank_no_specific_detail
+84 hour post oviposition	2	embryo		pattern:embryo	blank_no_specific_detail
+3rd larve	2	larva		pattern:larva	blank_no_specific_detail
+pools of larvae instars 1,3,5	2	larva		pattern:instar	blank_no_specific_detail
+first instar	2	larva	L1	pattern:instar	specific_instar
+2th instar	2	larva	L2	pattern:instar	specific_instar
+the third instar larvae	2	larva	L3	pattern:instar	specific_instar
+day 2 of the 3rd instar (L3D2) larval stage	2	larva	L3D2	pattern:instar	specific_instar_day
+3rd instar 3 days old	2	larva	L3D3	pattern:instar	specific_instar_day
+3rd-4th instar larvae	2	larva	L4	pattern:instar	specific_instar
+4th age larvae	2	larva	L4	pattern:instar	specific_instar
+L4D2	2	larva	L4D2	pattern:instar	specific_instar_day
+L4D4	2	larva	L4D4	pattern:instar	specific_instar_day
+fourth instar molting to day 8 before spinning	2	larva	L4D8	pattern:instar	specific_instar_day
+1st to 5th Instar	2	larva	L5	pattern:instar	specific_instar
+5th larvae	2	larva	L5	pattern:larva	specific_instar
+The fifth instar larvae	2	larva	L5	pattern:instar	specific_instar
+larva (5th instar)	2	larva	L5	pattern:instar	specific_instar
+in the fifth instar day-2	2	larva	L5D2	pattern:instar	specific_instar_day
+3rd day of the fifth instar	2	larva	L5D3	pattern:instar	specific_instar_day
+the fifth instar day-5 of larvae	2	larva	L5D5	pattern:instar	specific_instar_day
+Larvae L7	2	larva	L7	pattern:instar	specific_instar
+Late instar larva	2	larva	Last instar	pattern:instar	last_instar
+caterpillar, last instar	2	larva	Last instar	pattern:instar	last_instar
+4th instar mid-moult to 5th instar	2	larva	Mixed	pattern:instar	mixed_multi_instar
+Eggs: 1, 3, 5 days old; 1st instars: 1, 3, 5 days old; 2nd instars: 1, 3, 5 days old	2	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+L5 larvae, pupae and adults	2	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+larval, pupal	2	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+mixed	2	mixed	Mixed	exact	same_as_stage_corr
+Prepupa	2	prepupa	PP	exact	same_as_stage_corr
+day 2 prepupae	2	prepupa	PP	pattern:prepupa	same_as_stage_corr
+prepupae	2	prepupa	PP	pattern:prepupa	same_as_stage_corr
+10d-Pupa	2	pupa		pattern:pupa	blank_no_specific_detail
+40% pupa	2	pupa		pattern:pupa	blank_no_specific_detail
+pools of pupae days 1,3,5,7,9	2	pupa		pattern:pupa	blank_no_specific_detail
+the stage of pupae	2	pupa		pattern:pupa	blank_no_specific_detail
+1 day after pupation	2	pupa	P1	pattern:pupa	specific_pupa_day
+1 day old pupa	2	pupa	P1	pattern:pupa	specific_pupa_day
+1-day-old pupa	2	pupa	P1	pattern:pupa	specific_pupa_day
+10 days from pupation (Pre-melanin)	2	pupa	P10	pattern:pupa	specific_pupa_day
+11 days from pupation (Pre-melanin)	2	pupa	P11	pattern:pupa	specific_pupa_day
+15-day-old pupa	2	pupa	P15	pattern:pupa	specific_pupa_day
+3 days after pupation	2	pupa	P3	pattern:pupa	specific_pupa_day
+3-day-old pupa	2	pupa	P3	pattern:pupa	specific_pupa_day
+Pupal Day 3	2	pupa	P3	pattern:pupa	specific_pupa_day
+5-day-old pupa	2	pupa	P5	pattern:pupa	specific_pupa_day
+Pupal Day 5	2	pupa	P5	pattern:pupa	specific_pupa_day
+7 days from pupation (Pre-melanin)	2	pupa	P7	pattern:pupa	specific_pupa_day
+7-day-old pupa	2	pupa	P7	pattern:pupa	specific_pupa_day
+8 days from pupation (Pre-melanin)	2	pupa	P8	pattern:pupa	specific_pupa_day
+9 days from pupation (Pre-melanin)	2	pupa	P9	pattern:pupa	specific_pupa_day
+9-day-old pupa	2	pupa	P9	pattern:pupa	specific_pupa_day
+1 hour after corona treatment	2	unknown		no_match	blank_no_specific_detail
+1hour	2	unknown		no_match	blank_no_specific_detail
+2 STAGE	2	unknown		no_match	blank_no_specific_detail
+20 hours after HCl treatment	2	unknown		no_match	blank_no_specific_detail
+20 hours after corona treatment	2	unknown		no_match	blank_no_specific_detail
+20hours	2	unknown		no_match	blank_no_specific_detail
+24th hour of the fourth molt	2	unknown		no_match	blank_no_specific_detail
+3-5 DAYS	2	unknown		no_match	blank_no_specific_detail
+3-5d	2	unknown		no_match	blank_no_specific_detail
+3-old-day	2	unknown		no_match	blank_no_specific_detail
+34	2	unknown		no_match	blank_no_specific_detail
+3d	2	unknown		no_match	blank_no_specific_detail
+474	2	unknown		no_match	blank_no_specific_detail
+5-10d	2	unknown		no_match	blank_no_specific_detail
+5-12d	2	unknown		no_match	blank_no_specific_detail
+5-14d	2	unknown		no_match	blank_no_specific_detail
+5-16d	2	unknown		no_match	blank_no_specific_detail
+5-18d	2	unknown		no_match	blank_no_specific_detail
+5-20d	2	unknown		no_match	blank_no_specific_detail
+5-22d	2	unknown		no_match	blank_no_specific_detail
+5-6d	2	unknown		no_match	blank_no_specific_detail
+5-8d	2	unknown		no_match	blank_no_specific_detail
+505	2	unknown		no_match	blank_no_specific_detail
+6 hours after HCl treatment	2	unknown		no_match	blank_no_specific_detail
+6 hours after corona treatment	2	unknown		no_match	blank_no_specific_detail
+6hours	2	unknown		no_match	blank_no_specific_detail
+892	2	unknown		no_match	blank_no_specific_detail
+after copulation	2	unknown		no_match	blank_no_specific_detail
+at 16 h after head capsule slippage in the fourth molt	2	unknown		no_match	blank_no_specific_detail
+cell	2	unknown		no_match	blank_no_specific_detail
+cell line	2	unknown		no_match	blank_no_specific_detail
+mature and infected	2	unknown		no_match	blank_no_specific_detail
+middle	2	unknown		no_match	blank_no_specific_detail
+no	2	unknown		no_match	blank_no_specific_detail
+ommochrome stage	2	unknown		no_match	blank_no_specific_detail
+young	2	unknown		no_match	blank_no_specific_detail
+Day 1	2	unknown	D1	no_match	time_only_day
+One day old	2	unknown	D1	no_match	time_only_day
+Day 2	2	unknown	D2	no_match	time_only_day
+72hr	2	unknown	D3	no_match	time_only_hour_as_day
+Day 3	2	unknown	D3	no_match	time_only_day
+Day 4	2	unknown	D4	no_match	time_only_day
+five-day-old	2	unknown	D5	no_match	time_only_day
+Mated female adults at day five after eclosion rep1	1	adult		pattern:adult	blank_no_specific_detail
+Mated female adults at day five after eclosion rep2	1	adult		pattern:adult	blank_no_specific_detail
+Mated female adults at day five after eclosion rep3	1	adult		pattern:adult	blank_no_specific_detail
+Mated male adults at day five after eclosion rep1	1	adult		pattern:adult	blank_no_specific_detail
+Mated male adults at day five after eclosion rep2	1	adult		pattern:adult	blank_no_specific_detail
+Mated male adults at day five after eclosion rep3	1	adult		pattern:adult	blank_no_specific_detail
+Virgin female adults at day five after eclosion rep1	1	adult		pattern:adult	blank_no_specific_detail
+Virgin female adults at day five after eclosion rep2	1	adult		pattern:adult	blank_no_specific_detail
+Virgin female adults at day five after eclosion rep3	1	adult		pattern:adult	blank_no_specific_detail
+Virgin male adults at day five after eclosion rep1	1	adult		pattern:adult	blank_no_specific_detail
+Virgin male adults at day five after eclosion rep2	1	adult		pattern:adult	blank_no_specific_detail
+Virgin male adults at day five after eclosion rep3	1	adult		pattern:adult	blank_no_specific_detail
+adult female	1	adult		pattern:adult	blank_no_specific_detail
+adults1	1	adult		pattern:adult	blank_no_specific_detail
+adults10	1	adult		pattern:adult	blank_no_specific_detail
+adults11	1	adult		pattern:adult	blank_no_specific_detail
+adults12	1	adult		pattern:adult	blank_no_specific_detail
+adults13	1	adult		pattern:adult	blank_no_specific_detail
+adults14	1	adult		pattern:adult	blank_no_specific_detail
+adults15	1	adult		pattern:adult	blank_no_specific_detail
+adults16	1	adult		pattern:adult	blank_no_specific_detail
+adults2	1	adult		pattern:adult	blank_no_specific_detail
+adults3	1	adult		pattern:adult	blank_no_specific_detail
+adults4	1	adult		pattern:adult	blank_no_specific_detail
+adults5	1	adult		pattern:adult	blank_no_specific_detail
+adults6	1	adult		pattern:adult	blank_no_specific_detail
+adults7	1	adult		pattern:adult	blank_no_specific_detail
+adults8	1	adult		pattern:adult	blank_no_specific_detail
+adults9	1	adult		pattern:adult	blank_no_specific_detail
+moth	1	adult		pattern:adult	blank_no_specific_detail
+2-day-old adults	1	adult	D2	pattern:adult	time_only_day
+2-3days old adult	1	adult	D3	pattern:adult	time_only_day
+6-eggs	1	egg		pattern:egg	blank_no_specific_detail
+Mix_egg_from_different_days	1	egg		pattern:egg	blank_no_specific_detail
+the stage of egg	1	egg		pattern:egg	blank_no_specific_detail
+Egg_of_1_day	1	egg	D1	pattern:egg	time_only_day
+Egg_of_4_day	1	egg	D4	pattern:egg	time_only_day
+36h ael embryonic	1	embryo		pattern:embryo	blank_no_specific_detail
+RNA pooled from 2, 5, 12, 32 hours after oviposition	1	embryo		pattern:embryo	blank_no_specific_detail
+embyro	1	embryo		pattern:embryo	blank_no_specific_detail
+5_star_larva	1	larva		pattern:larva	blank_no_specific_detail
+5h instar	1	larva		pattern:instar	blank_no_specific_detail
+Larvae at instar stages from third to sixth	1	larva		pattern:instar	blank_no_specific_detail
+early-stage larvae	1	larva		pattern:larva	blank_no_specific_detail
+larvae1	1	larva		pattern:larva	blank_no_specific_detail
+larvae2	1	larva		pattern:larva	blank_no_specific_detail
+larvae3	1	larva		pattern:larva	blank_no_specific_detail
+larval I	1	larva		pattern:larva	blank_no_specific_detail
+larval III	1	larva		pattern:larva	blank_no_specific_detail
+larval V	1	larva		pattern:larva	blank_no_specific_detail
+larve	1	larva		pattern:larva	blank_no_specific_detail
+late larval instars	1	larva		pattern:instar	blank_no_specific_detail
+late-stage larvae	1	larva		pattern:larva	blank_no_specific_detail
+six instars larva	1	larva		pattern:instar	blank_no_specific_detail
+the fourth molt instar	1	larva		pattern:instar	blank_no_specific_detail
+day 1 larvae	1	larva	D1	pattern:larva	time_only_day
+6th instars: 2 and 3 days old; 5th instars, molting to the next stadium	1	larva	D3	pattern:instar	time_only_day
+day 3 larvae	1	larva	D3	pattern:larva	time_only_day
+day 6 larvae	1	larva	D6	pattern:larva	time_only_day
+1st larva	1	larva	L1	pattern:larva	specific_instar
+Larval (neonate)	1	larva	L1	pattern:larva	neonate_to_first_instar
+the 3 day of 10th larvae	1	larva	L10D3	pattern:larva	specific_instar_day
+2 instar larvae	1	larva	L2	pattern:instar	specific_instar
+2nd larva	1	larva	L2	pattern:larva	specific_instar
+3rd instar larval (L3)	1	larva	L3	pattern:instar	specific_instar
+3rd larva	1	larva	L3	pattern:larva	specific_instar
+3th Instar	1	larva	L3	pattern:instar	specific_instar
+Third instar larval	1	larva	L3	pattern:instar	specific_instar
+Third instar nymphs	1	larva	L3	pattern:instar	specific_instar
+Third-instar larvae	1	larva	L3	pattern:instar	specific_instar
+third instar larve	1	larva	L3	pattern:instar	specific_instar
+3rd instar 0th day	1	larva	L3D0	pattern:instar	specific_instar_day
+3rd-4th instar	1	larva	L4	pattern:instar	specific_instar
+4 instar larvae	1	larva	L4	pattern:instar	specific_instar
+4th_instar	1	larva	L4	pattern:instar	specific_instar
+Fourth Instar	1	larva	L4	pattern:instar	specific_instar
+4th instar 1st day	1	larva	L4D1	pattern:instar	specific_instar_day
+5 instar-1	1	larva	L5	pattern:instar	specific_instar
+5 instar-2	1	larva	L5	pattern:instar	specific_instar
+5 instar-3	1	larva	L5	pattern:instar	specific_instar
+5 instar-4	1	larva	L5	pattern:instar	specific_instar
+5 instar-5	1	larva	L5	pattern:instar	specific_instar
+5 instar-6	1	larva	L5	pattern:instar	specific_instar
+5 instar-7	1	larva	L5	pattern:instar	specific_instar
+5 instar-8	1	larva	L5	pattern:instar	specific_instar
+5 instar-9	1	larva	L5	pattern:instar	specific_instar
+5L 6d	1	larva	L5	pattern:instar	specific_instar
+5th instar caterpillar, ND population, Brassica diet	1	larva	L5	pattern:instar	specific_instar
+5th instar of SEM	1	larva	L5	pattern:instar	specific_instar
+5th instar of SEW	1	larva	L5	pattern:instar	specific_instar
+Five 4th and five 5th instar larvae	1	larva	L5	pattern:instar	specific_instar
+Larvae at fifth instar stage rep1	1	larva	L5	pattern:instar	specific_instar
+Larvae at fifth instar stage rep2	1	larva	L5	pattern:instar	specific_instar
+Larvae at fifth instar stage rep3	1	larva	L5	pattern:instar	specific_instar
+Larvae with 2.31*10^7 AcV viruses at fifth instar stage rep1	1	larva	L5	pattern:instar	specific_instar
+Larvae with 2.31*10^7 AcV viruses at fifth instar stage rep2	1	larva	L5	pattern:instar	specific_instar
+Larvae with 2.31*10^7 AcV viruses at fifth instar stage rep3	1	larva	L5	pattern:instar	specific_instar
+Larvae with 2.31*10^8 AcV viruses at fifth instar stage rep1	1	larva	L5	pattern:instar	specific_instar
+Larvae with 2.31*10^8 AcV viruses at fifth instar stage rep2	1	larva	L5	pattern:instar	specific_instar
+Larvae with 2.31*10^8 AcV viruses at fifth instar stage rep3	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae (24hpi-1)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(24hpi-2)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(24hpi-3)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(24hpi-4)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(24hpi-5)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(24hpi-6)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(48hpi-1)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(48hpi-2)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(48hpi-3)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(48hpi-4)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(48hpi-5)	1	larva	L5	pattern:instar	specific_instar
+fifth instar larvae(48hpi-6)	1	larva	L5	pattern:instar	specific_instar
+Fifth instar day 3	1	larva	L5D3	pattern:instar	specific_instar_day
+the 3 day of 5th larvae	1	larva	L5D3	pattern:larva	specific_instar_day
+the third day old fifth instar	1	larva	L5D3	pattern:instar	specific_instar_day
+4-6 instar larvae	1	larva	L6	pattern:instar	specific_instar
+6th instar	1	larva	L6	pattern:instar	specific_instar
+Larvae L6	1	larva	L6	pattern:instar	specific_instar
+first to sixth instar larvae	1	larva	L6	pattern:instar	specific_instar
+sixth instar larve	1	larva	L6	pattern:instar	specific_instar
+the 3 day of 6th larvae	1	larva	L6D3	pattern:larva	specific_instar_day
+the 3 day of 7th larvae	1	larva	L7D3	pattern:larva	specific_instar_day
+the 3 day of 8th larvae	1	larva	L8D3	pattern:larva	specific_instar_day
+the 3 day of 9th larvae	1	larva	L9D3	pattern:larva	specific_instar_day
+late instar larvae	1	larva	Last instar	pattern:instar	last_instar
+ultimate instar	1	larva	Last instar	pattern:instar	last_instar
+3rd instar 6 days old	1	larva	Mixed	pattern:instar	mixed_multi_instar
+L5D6,PP,P0	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+Larvae, Pupae, Adults	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+The sample contain Spodoptera exempta at larvae, pupae and adult stage	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+The sample contain Spodoptera frugiperda at larvae, pupae and adult stage	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+The sample contain Spodoptera littoralis at larvae, pupae and adult stage	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+Third-instars larvae of moths	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+egg to adult	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+egg, nymph, pupa and adult	1	mixed	Mixed	mixed_multi_phase	same_as_stage_corr
+post feeding larvae to prepupae	1	prepupa	PP	pattern:prepupa	same_as_stage_corr
+prepupa of SEM	1	prepupa	PP	pattern:prepupa	same_as_stage_corr
+prepupa of SEW	1	prepupa	PP	pattern:prepupa	same_as_stage_corr
+50% pupa	1	pupa		pattern:pupa	blank_no_specific_detail
+53-80h (40-60% pupal development)	1	pupa		pattern:pupa	blank_no_specific_detail
+60% pupa	1	pupa		pattern:pupa	blank_no_specific_detail
+70% pupa	1	pupa		pattern:pupa	blank_no_specific_detail
+80% pupa	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae at fifth day rep1	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae at fifth day rep2	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae at fifth day rep3	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae with 2.31*10^7 AcV viruses at fifth day rep1	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae with 2.31*10^7 AcV viruses at fifth day rep2	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae with 2.31*10^7 AcV viruses at fifth day rep3	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae with 2.31*10^8 AcV viruses at fifth day rep1	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae with 2.31*10^8 AcV viruses at fifth day rep2	1	pupa		pattern:pupa	blank_no_specific_detail
+Pupae with 2.31*10^8 AcV viruses at fifth day rep3	1	pupa		pattern:pupa	blank_no_specific_detail
+pupa of SEM	1	pupa		pattern:pupa	blank_no_specific_detail
+pupa of SEW	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-A1	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-A2	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-A3	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-A4	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-A5	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-B1	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-B2	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-B3	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-B4	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C1	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C2	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C3	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C4	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C5	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C6	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-C7	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-D1	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-D2	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-D3	1	pupa		pattern:pupa	blank_no_specific_detail
+pupae-D4	1	pupa		pattern:pupa	blank_no_specific_detail
+48-72 hr pupa	1	pupa	P3	pattern:pupa	specific_pupa_hour
+0	1	unknown		no_match	blank_no_specific_detail
+10d rep1	1	unknown		no_match	blank_no_specific_detail
+10d rep2	1	unknown		no_match	blank_no_specific_detail
+10d rep3	1	unknown		no_match	blank_no_specific_detail
+12-15 days	1	unknown		no_match	blank_no_specific_detail
+12hr	1	unknown		no_match	blank_no_specific_detail
+1d rep1	1	unknown		no_match	blank_no_specific_detail
+1d rep2	1	unknown		no_match	blank_no_specific_detail
+1d rep3	1	unknown		no_match	blank_no_specific_detail
+2-3 days	1	unknown		no_match	blank_no_specific_detail
+21 days	1	unknown		no_match	blank_no_specific_detail
+3 days ole	1	unknown		no_match	blank_no_specific_detail
+3-days	1	unknown		no_match	blank_no_specific_detail
+31	1	unknown		no_match	blank_no_specific_detail
+3d rep1	1	unknown		no_match	blank_no_specific_detail
+3d rep2	1	unknown		no_match	blank_no_specific_detail
+3d rep3	1	unknown		no_match	blank_no_specific_detail
+3hr	1	unknown		no_match	blank_no_specific_detail
+4	1	unknown		no_match	blank_no_specific_detail
+4 - 6 days	1	unknown		no_match	blank_no_specific_detail
+4 h	1	unknown		no_match	blank_no_specific_detail
+4-days	1	unknown		no_match	blank_no_specific_detail
+4d rep1	1	unknown		no_match	blank_no_specific_detail
+4d rep2	1	unknown		no_match	blank_no_specific_detail
+4d rep3	1	unknown		no_match	blank_no_specific_detail
+4th	1	unknown		no_match	blank_no_specific_detail
+5 days	1	unknown		no_match	blank_no_specific_detail
+5-24d	1	unknown		no_match	blank_no_specific_detail
+5-26d	1	unknown		no_match	blank_no_specific_detail
+5-28d	1	unknown		no_match	blank_no_specific_detail
+5-30d	1	unknown		no_match	blank_no_specific_detail
+5-32d	1	unknown		no_match	blank_no_specific_detail
+5-34d	1	unknown		no_match	blank_no_specific_detail
+5-36d	1	unknown		no_match	blank_no_specific_detail
+5-38d	1	unknown		no_match	blank_no_specific_detail
+5-40d	1	unknown		no_match	blank_no_specific_detail
+5-42d	1	unknown		no_match	blank_no_specific_detail
+5-44d	1	unknown		no_match	blank_no_specific_detail
+5-46d	1	unknown		no_match	blank_no_specific_detail
+5-48d	1	unknown		no_match	blank_no_specific_detail
+5-50d	1	unknown		no_match	blank_no_specific_detail
+5-52d	1	unknown		no_match	blank_no_specific_detail
+5-54d	1	unknown		no_match	blank_no_specific_detail
+5-56d	1	unknown		no_match	blank_no_specific_detail
+5-58d	1	unknown		no_match	blank_no_specific_detail
+5-60d	1	unknown		no_match	blank_no_specific_detail
+5-62d	1	unknown		no_match	blank_no_specific_detail
+5-64d	1	unknown		no_match	blank_no_specific_detail
+5-66d	1	unknown		no_match	blank_no_specific_detail
+5-68d	1	unknown		no_match	blank_no_specific_detail
+5-70d	1	unknown		no_match	blank_no_specific_detail
+5-72d	1	unknown		no_match	blank_no_specific_detail
+5-74d	1	unknown		no_match	blank_no_specific_detail
+5-76d	1	unknown		no_match	blank_no_specific_detail
+5-78d	1	unknown		no_match	blank_no_specific_detail
+5-80d	1	unknown		no_match	blank_no_specific_detail
+5-82d	1	unknown		no_match	blank_no_specific_detail
+5-days	1	unknown		no_match	blank_no_specific_detail
+6-8 days	1	unknown		no_match	blank_no_specific_detail
+6-days	1	unknown		no_match	blank_no_specific_detail
+6hr	1	unknown		no_match	blank_no_specific_detail
+7d rep1	1	unknown		no_match	blank_no_specific_detail
+7d rep2	1	unknown		no_match	blank_no_specific_detail
+7d rep3	1	unknown		no_match	blank_no_specific_detail
+9-11 days	1	unknown		no_match	blank_no_specific_detail
+9hr	1	unknown		no_match	blank_no_specific_detail
+Ck rep1	1	unknown		no_match	blank_no_specific_detail
+Ck rep2	1	unknown		no_match	blank_no_specific_detail
+Ck rep3	1	unknown		no_match	blank_no_specific_detail
+CkH rep1	1	unknown		no_match	blank_no_specific_detail
+CkH rep2	1	unknown		no_match	blank_no_specific_detail
+CkH rep3	1	unknown		no_match	blank_no_specific_detail
+Feathering the next day	1	unknown		no_match	blank_no_specific_detail
+Hsp rep1	1	unknown		no_match	blank_no_specific_detail
+Hsp rep2	1	unknown		no_match	blank_no_specific_detail
+Hsp rep3	1	unknown		no_match	blank_no_specific_detail
+HspH rep1	1	unknown		no_match	blank_no_specific_detail
+HspH rep2	1	unknown		no_match	blank_no_specific_detail
+HspH rep3	1	unknown		no_match	blank_no_specific_detail
+MF0h rep1	1	unknown		no_match	blank_no_specific_detail
+MF0h rep2	1	unknown		no_match	blank_no_specific_detail
+MF0h rep3	1	unknown		no_match	blank_no_specific_detail
+MF24h rep1	1	unknown		no_match	blank_no_specific_detail
+MF24h rep2	1	unknown		no_match	blank_no_specific_detail
+MF24h rep3	1	unknown		no_match	blank_no_specific_detail
+MF6h rep1	1	unknown		no_match	blank_no_specific_detail
+MF6h rep2	1	unknown		no_match	blank_no_specific_detail
+MF6h rep3	1	unknown		no_match	blank_no_specific_detail
+MM0h rep1	1	unknown		no_match	blank_no_specific_detail
+MM0h rep2	1	unknown		no_match	blank_no_specific_detail
+MM0h rep3	1	unknown		no_match	blank_no_specific_detail
+MM24h rep1	1	unknown		no_match	blank_no_specific_detail
+MM24h rep2	1	unknown		no_match	blank_no_specific_detail
+MM24h rep3	1	unknown		no_match	blank_no_specific_detail
+MM6h rep1	1	unknown		no_match	blank_no_specific_detail
+MM6h rep2	1	unknown		no_match	blank_no_specific_detail
+MM6h rep3	1	unknown		no_match	blank_no_specific_detail
+Not Applicable	1	unknown		missing_or_unknown	blank_no_specific_detail
+VF0h rep1	1	unknown		no_match	blank_no_specific_detail
+VF0h rep2	1	unknown		no_match	blank_no_specific_detail
+VF0h rep3	1	unknown		no_match	blank_no_specific_detail
+VF24h rep1	1	unknown		no_match	blank_no_specific_detail
+VF24h rep2	1	unknown		no_match	blank_no_specific_detail
+VF24h rep3	1	unknown		no_match	blank_no_specific_detail
+VF6h rep1	1	unknown		no_match	blank_no_specific_detail
+VF6h rep2	1	unknown		no_match	blank_no_specific_detail
+VF6h rep3	1	unknown		no_match	blank_no_specific_detail
+VM0h rep1	1	unknown		no_match	blank_no_specific_detail
+VM0h rep2	1	unknown		no_match	blank_no_specific_detail
+VM0h rep3	1	unknown		no_match	blank_no_specific_detail
+VM24h rep1	1	unknown		no_match	blank_no_specific_detail
+VM24h rep2	1	unknown		no_match	blank_no_specific_detail
+VM24h rep3	1	unknown		no_match	blank_no_specific_detail
+VM6h rep1	1	unknown		no_match	blank_no_specific_detail
+VM6h rep2	1	unknown		no_match	blank_no_specific_detail
+VM6h rep3	1	unknown		no_match	blank_no_specific_detail
+Young	1	unknown		no_match	blank_no_specific_detail
+a	1	unknown		no_match	blank_no_specific_detail
+all	1	unknown		no_match	blank_no_specific_detail
+mature	1	unknown		no_match	blank_no_specific_detail
+month	1	unknown		no_match	blank_no_specific_detail
+old	1	unknown		no_match	blank_no_specific_detail
+~14 days	1	unknown		no_match	blank_no_specific_detail
+0 day	1	unknown	D0	no_match	time_only_day
+0 h	1	unknown	D0	no_match	time_only_hour_as_day
+24 h	1	unknown	D1	no_match	time_only_hour_as_day
+24 hours	1	unknown	D1	no_match	time_only_hour_as_day
+24hr	1	unknown	D1	no_match	time_only_hour_as_day
+48 h	1	unknown	D2	no_match	time_only_hour_as_day
+3 weeks after born	1	unknown	W3	no_match	time_only_week

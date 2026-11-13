@@ -1,0 +1,16 @@
+{
+  "loaded_rows": 1314,
+  "input_total": 1314,
+  "input_dot_names": 72,
+  "input_non_dot_names": 1242,
+  "cleaned_sp": 1211,
+  "cleaned_genus": 0,
+  "review_name": 71,
+  "review_subfamily": 141,
+  "review_genus": 0,
+  "review_none": 0,
+  "drop_dot": 72,
+  "output_total": 1354,
+  "anomaly_rows": 40,
+  "errors": 0
+}

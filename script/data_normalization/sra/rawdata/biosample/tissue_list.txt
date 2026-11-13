@@ -1,0 +1,40 @@
+midgut
+antenna
+head
+silk gland
+leg
+wing
+fat body
+brain
+mouthpart
+epidermis
+ovary
+abdomen
+thorax
+testis
+reproductive system
+reproductive tract
+ejaculatory duct
+oviduct
+gut
+hemolymph
+malpighian tubule
+pheromone gland
+accessory gland
+labial gland
+salivary gland
+muscle
+eye
+ovipositor
+foot
+nervous system
+serosa
+foregut
+hindgut
+horn
+prothoracic gland
+trachea
+heart
+carcass
+whole body
+unknown

@@ -1,0 +1,40 @@
+midgut	digestive
+foregut	digestive
+hindgut	digestive
+gut	digestive
+salivary gland	digestive
+labial gland	digestive
+silk gland	digestive
+head	head_neck
+mouthpart	head_neck
+thorax	thorax
+leg	thorax
+wing	thorax
+foot	thorax
+abdomen	abdomen
+ovipositor	abdomen
+epidermis	body_wall
+horn	body_wall
+hemolymph	circulatory
+heart	circulatory
+fat body	circulatory
+malpighian tubule	excretory
+trachea	respiratory
+muscle	musculoskeletal
+brain	nervous
+nervous system	nervous
+antenna	sensory
+eye	sensory
+ovary	reproductive
+testis	reproductive
+reproductive system	reproductive
+reproductive tract	reproductive
+ejaculatory duct	reproductive
+oviduct	reproductive
+accessory gland	reproductive
+pheromone gland	endocrine
+prothoracic gland	endocrine
+whole body	whole_body
+carcass	other
+serosa	other
+other	other

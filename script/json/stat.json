@@ -1,0 +1,90 @@
+{
+  "taxo": {
+    "species_total": 114852,
+    "records_total": 118918,
+    "species_by_source": {
+      "gbif": 70686,
+      "inaturalist": 2916,
+      "ncbi": 43164
+    }
+  },
+  "genome": {
+    "species_total": 1424,
+    "records_total": 1702,
+    "species_by_source": {
+      "IBG": 12,
+      "NCBI": 1415,
+      "NGDC": 6
+    },
+    "records_by_source": {
+      "IBG": 12,
+      "NCBI": 1684,
+      "NGDC": 6
+    },
+    "annotation": {
+      "species_total": 770,
+      "records_total": 839,
+      "records_by_source": {
+        "IBG": 782,
+        "NCBI": 57
+      },
+      "path_counts": {
+        "cds_path": 838,
+        "gff3_path": 839,
+        "protein_path": 838
+      }
+    },
+    "publications": {
+      "species_total": 580,
+      "genome_records_total": 656,
+      "records_total": 1740,
+      "records_by_source": {
+        "NCBI": 1740
+      }
+    },
+    "busco": {
+      "species_total": 1423,
+      "genome_records_total": 1701,
+      "records_by_source": {
+        "IBG": 12,
+        "NCBI": 1683,
+        "NGDC": 6
+      }
+    },
+    "chromosomes": {
+      "species_total": 1413,
+      "genome_records_total": 1681,
+      "entries_total": 59876,
+      "records_by_source": {
+        "NCBI": 1681
+      }
+    }
+  },
+  "Transcriptome": {
+    "species_total": 1034,
+    "records_total": 20156
+  },
+  "distribution": {
+    "species_total": 110773,
+    "records_total": 148078740,
+    "species_by_source": {
+      "BOLD": 66564,
+      "GBIF": 99584
+    }
+  },
+  "COI": {
+    "species_total": 68020,
+    "records_total": 1094805
+  },
+  "PDB": {
+    "species_total": 38,
+    "records_total": 477,
+    "records_with_entities": 477,
+    "records_with_metadata": 477,
+    "records_with_structures": 477
+  },
+  "Hostplant": {
+    "species_total": 19395,
+    "records_total": 78402
+  }
+}

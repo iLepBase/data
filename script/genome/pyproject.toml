@@ -1,0 +1,15 @@
+[project]
+name = "ncbi-genome-downloader"
+version = "0.1.0"
+description = "Batch download and validate NCBI genome datasets."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

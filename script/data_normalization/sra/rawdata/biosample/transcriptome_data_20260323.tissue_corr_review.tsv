@@ -1,0 +1,1601 @@
+raw_tissue	count	tissue1_corr	tissue2_corr	reason
+N/A	2833	unknown	unknown	missing
+whole body	1000	whole_body	whole body	exact
+midgut	763	digestive	midgut	exact
+Whole body	654	whole_body	whole body	exact
+fat body	637	circulatory	fat body	exact
+head	475	head_neck	head	exact
+Midgut	396	digestive	midgut	exact
+body	331	whole_body	whole body	pattern:whole body
+abdomen	290	abdomen	abdomen	exact
+gut	273	digestive	gut	exact
+whole larvae	256	whole_body	whole body	pattern:whole body
+ABDOMEN	223	abdomen	abdomen	exact
+whole organism	215	whole_body	whole body	pattern:whole body
+WHOLE ORGANISM	207	whole_body	whole body	pattern:whole body
+hindwing	200	thorax	wing	pattern:wing
+hemolymph	196	circulatory	hemolymph	exact
+Hindwing	191	thorax	wing	pattern:wing
+brain	180	nervous	brain	exact
+wholebody	158	whole_body	whole body	pattern:whole body
+thorax	151	thorax	thorax	exact
+antennae	150	sensory	antenna	pattern:antenna
+silk gland	148	digestive	silk gland	exact
+whole	138	whole_body	whole body	pattern:whole body
+larva	136	whole_body	whole body	pattern:whole body
+antenna	124	sensory	antenna	exact
+whole insect	124	whole_body	whole body	pattern:whole body
+Head	122	head_neck	head	exact
+larvae	120	whole_body	whole body	pattern:whole body
+Brain	119	nervous	brain	exact
+missing	119	unknown	unknown	missing
+not applicable	113	unknown	unknown	missing
+Fat body	107	circulatory	fat body	exact
+wing disc	106	thorax	wing	pattern:wing
+Whole Body	100	whole_body	whole body	exact
+whole animal	100	whole_body	whole body	pattern:whole body
+moth	99	whole_body	whole body	pattern:whole body
+Ovary	96	reproductive	ovary	exact
+first_instar_larva	96	whole_body	whole body	pattern:whole body
+whole larva	95	whole_body	whole body	pattern:whole body
+Gut	93	digestive	gut	exact
+whole specimen	89	whole_body	whole body	pattern:whole body
+Thorax	86	thorax	thorax	exact
+**OTHER SOMATIC ANIMAL TISSUE**	84	unknown	unknown	no_match
+whole organisms, pooled	84	whole_body	whole body	pattern:whole body
+pheromone gland	83	endocrine	pheromone gland	exact
+gut (without peritrophic membrane and plant contents)	82	digestive	gut	pattern:gut
+adult, body	79	whole_body	whole body	pattern:whole body
+ganglion or epidermis	72	nervous;body_wall	brain;epidermis	multi_match:brain|epidermis
+ovary	72	reproductive	ovary	exact
+the whole insect	72	whole_body	whole body	pattern:whole body
+egg	71	whole_body	whole body	pattern:whole body
+forewing	71	thorax	wing	pattern:wing
+Antenna	70	sensory	antenna	exact
+posterior silk gland	70	digestive	silk gland	pattern:silk gland
+larval	69	whole_body	whole body	pattern:whole body
+Fatbody	64	circulatory	fat body	pattern:fat body
+hemocyte	64	circulatory	hemolymph	pattern:hemolymph
+Posterior silk gland	64	digestive	silk gland	pattern:silk gland
+wing	63	thorax	wing	exact
+Testis	57	reproductive	testis	exact
+testis	57	reproductive	testis	exact
+all	54	whole_body	whole body	pattern:whole body
+eye	53	sensory	eye	exact
+Hemolymph	51	circulatory	hemolymph	exact
+embryo	51	whole_body	whole body	pattern:whole body
+holl body	51	whole_body	whole body	pattern:whole body
+muscle	49	musculoskeletal	muscle	exact
+entire body	49	whole_body	whole body	pattern:whole body
+3 brains	48	nervous	brain	pattern:brain
+imago	48	whole_body	whole body	pattern:whole body
+not collected	47	unknown	unknown	missing
+whole body homogenate	46	whole_body	whole body	pattern:whole body
+whole male pupa	46	whole_body	whole body	pattern:whole body
+fatbody	45	circulatory	fat body	pattern:fat body
+cell line	45	unknown	unknown	cell_line_or_cells
+Antennae	43	sensory	antenna	pattern:antenna
+cuticle	42	body_wall	epidermis	pattern:epidermis
+Whole worm	41	whole_body	whole body	pattern:whole body
+Bombyx mori_ovary-derivedcultured_cell_line	40	unknown	unknown	cell_line_or_cells
+The whole worm	39	whole_body	whole body	pattern:whole body
+HEAD | ABDOMEN	38	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+Ovarian	38	reproductive	ovary	pattern:ovary
+THORAX	38	thorax	thorax	exact
+eggs	38	whole_body	whole body	pattern:whole body
+Epidermis	37	body_wall	epidermis	exact
+Embryo	37	whole_body	whole body	pattern:whole body
+HEAD | THORAX	36	head_neck;thorax	head;thorax	multi_match:head|thorax
+flight muscles	36	musculoskeletal	muscle	pattern:muscle
+immature individual	36	whole_body	whole body	pattern:whole body
+proboscis	35	head_neck	mouthpart	pattern:mouthpart
+cell	35	unknown	unknown	no_match
+Whole larva	35	whole_body	whole body	pattern:whole body
+Body	34	whole_body	whole body	pattern:whole body
+Whole insect	34	whole_body	whole body	pattern:whole body
+whole brain	32	nervous	brain	pattern:brain
+Integument	32	body_wall	epidermis	pattern:epidermis
+hemocytes	32	circulatory	hemolymph	pattern:hemolymph
+Whole bodies	32	whole_body	whole body	pattern:whole body
+individual	32	whole_body	whole body	pattern:whole body
+Forewing + posterior Hindwing	32	thorax	wing	pattern:wing
+anterior-Hindwing	32	thorax	wing	pattern:wing
+antennea	31	sensory	antenna	pattern:antenna
+integument	31	body_wall	epidermis	pattern:epidermis
+legs	31	thorax	leg	pattern:leg
+ovarian	31	reproductive	ovary	pattern:ovary
+Silk gland	31	digestive	silk gland	exact
+BRAIN	30	nervous	brain	exact
+Eyes	30	sensory	eye	pattern:eye
+head (without antennae)	30	head_neck	head	pattern:head
+whole head	30	head_neck	head	pattern:head
+Head/abdomen/thorax	30	head_neck;abdomen;thorax	head;abdomen;thorax	multi_match:head|abdomen|thorax
+One forewing and one hindwing	30	thorax	wing	pattern:wing
+wing discs	30	thorax	wing	pattern:wing
+eyes and brain	29	nervous;sensory	brain;eye	multi_match:brain|eye
+Mid-gut	29	digestive	midgut	pattern:midgut
+Striated Muscle	29	musculoskeletal	muscle	pattern:muscle
+total tissue	29	whole_body	whole body	pattern:whole body
+epidermis	28	body_wall	epidermis	exact
+BmN cells	27	unknown	unknown	cell_line_or_cells
+Wings	27	thorax	wing	pattern:wing
+thorax excepted	25	thorax	thorax	pattern:thorax
+The whole body	25	whole_body	whole body	pattern:whole body
+adult_thorax_abdomen	24	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+Antennal	24	sensory	antenna	pattern:antenna
+anterior part of middle silk gland	24	digestive	silk gland	pattern:silk gland
+middle part of middle silk gland	24	digestive	silk gland	pattern:silk gland
+posterior part of middle silk gland	24	digestive	silk gland	pattern:silk gland
+silkgland	24	digestive	silk gland	pattern:silk gland
+48 hpo embryo	24	whole_body	whole body	pattern:whole body
+Female adult whole worm	24	whole_body	whole body	pattern:whole body
+Labial glands	23	digestive	labial gland	pattern:labial gland
+Malpighian tubule	23	excretory	malpighian tubule	exact
+malpighian tubule	23	excretory	malpighian tubule	exact
+middle silk gland	23	digestive	silk gland	pattern:silk gland
+Testes	23	reproductive	testis	pattern:testis
+All body	22	whole_body	whole body	pattern:whole body
+Whole Larvae	22	whole_body	whole body	pattern:whole body
+adult	22	whole_body	whole body	pattern:whole body
+Malpighian tubules	21	excretory	malpighian tubule	pattern:malpighian tubule
+Epidermis, Wing, midgut,	21	digestive;thorax;body_wall	midgut;wing;epidermis	multi_match:midgut|wing|epidermis
+intersegmental muscle during pupal-adult development	21	musculoskeletal	muscle	pattern:muscle
+larvae body	21	whole_body	whole body	pattern:whole body
+whole individual	21	whole_body	whole body	pattern:whole body
+whole insect body	21	whole_body	whole body	pattern:whole body
+whole body apart from wings and genitalia	21	thorax;whole_body	wing;whole body	multi_match:wing|whole body
+Fat Body	20	circulatory	fat body	exact
+whole body without gut	20	digestive;whole_body	gut;whole body	multi_match:gut|whole body
+anterior	20	unknown	unknown	no_match
+Wholebody	20	whole_body	whole body	pattern:whole body
+total body	20	whole_body	whole body	pattern:whole body
+hind wings	20	thorax	wing	pattern:wing
+antennae and forelegs	19	sensory;thorax	antenna;leg	multi_match:antenna|leg
+gonads	19	reproductive	reproductive system	pattern:reproductive system
+salivary glands	19	digestive	salivary gland	pattern:salivary gland
+testes	19	reproductive	testis	pattern:testis
+posterior	19	unknown	unknown	no_match
+whole pupa	19	whole_body	whole body	pattern:whole body
+hind wing	19	thorax	wing	pattern:wing
+Antenae	18	sensory	antenna	pattern:antenna
+FatBody	18	circulatory	fat body	pattern:fat body
+fat body sensu invertebrata	18	circulatory	fat body	pattern:fat body
+Gut and Malpighian tubules	18	digestive;excretory	gut;malpighian tubule	multi_match:gut|malpighian tubule
+head-brain	18	head_neck;nervous	head;brain	multi_match:head|brain
+leg	18	thorax	leg	exact
+mid-gut	18	digestive	midgut	pattern:midgut
+midgut tissue	18	digestive	midgut	pattern:midgut
+Middle-Silk-Gland	18	digestive	silk gland	pattern:silk gland
+112.35 E 35.04 N	18	unknown	unknown	coordinate_like
+10 whole larvae	18	whole_body	whole body	pattern:whole body
+L3 larvae	18	whole_body	whole body	pattern:whole body
+The whole insect	18	whole_body	whole body	pattern:whole body
+Various developmental stages (eggs, L1, L3 and L5 larvae, freshly buried and metamorphosing pupae, adults)	18	whole_body	whole body	pattern:whole body
+Whole wing	18	thorax	wing	pattern:wing
+Malpighian-Tubule	17	excretory	malpighian tubule	pattern:malpighian tubule
+reproductive tract	17	reproductive	reproductive tract	exact
+Posterior-Silk-Gland	17	digestive	silk gland	pattern:silk gland
+Trachea	17	respiratory	trachea	exact
+full body	17	whole_body	whole body	pattern:whole body
+composite abdominal tissue	16	abdomen	abdomen	pattern:abdomen
+HEAD, ABDOMEN	16	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+Eye/head	16	head_neck;sensory	head;eye	multi_match:head|eye
+whole body without intestinal tract and ovaries	16	reproductive;whole_body	ovary;whole body	multi_match:ovary|whole body
+Anterior-Silk-Gland	16	digestive	silk gland	pattern:silk gland
+Cu1 eyespot	16	thorax	wing	pattern:wing
+Non-eyespot control wing tissue from the Cu1 wing sector	16	thorax	wing	pattern:wing
+larval head	15	head_neck	head	pattern:head
+Hemocytes	15	circulatory	hemolymph	pattern:hemolymph
+forelegs	15	thorax	leg	pattern:leg
+hindlegs	15	thorax	leg	pattern:leg
+Pheromone gland	15	endocrine	pheromone gland	exact
+prothoracic gland	15	endocrine	prothoracic gland	exact
+The whole body was collected from Opisina arenosella	15	whole_body	whole body	pattern:whole body
+Various developmental stages : larvae, pupae and Moth	15	whole_body	whole body	pattern:whole body
+whole worm	15	whole_body	whole body	pattern:whole body
+forewings	15	thorax	wing	pattern:wing
+Fat-Body	14	circulatory	fat body	pattern:fat body
+Fat body, epidermis, and tracheal matrix	14	circulatory;body_wall;respiratory	fat body;epidermis;trachea	multi_match:fat body|epidermis|trachea
+Salivary glands	14	digestive	salivary gland	pattern:salivary gland
+the whole body	14	whole_body	whole body	pattern:whole body
+Pupal wing disc	14	thorax	wing	pattern:wing
+Ovariole	13	reproductive	ovary	pattern:ovary
+Whole insects	13	whole_body	whole body	pattern:whole body
+entire organism	13	whole_body	whole body	pattern:whole body
+THORAX, ABDOMEN	12	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+Head and Antenna	12	sensory;head_neck	antenna;head	multi_match:antenna|head
+antennae, legs and larvae	12	sensory;thorax	antenna;leg	multi_match:antenna|leg
+The epidermis of the fifth instar larvae of G0	12	body_wall	epidermis	pattern:epidermis
+pupal cuticle	12	body_wall	epidermis	pattern:epidermis
+retina	12	sensory	eye	pattern:eye
+arthropod fat body	12	circulatory	fat body	pattern:fat body
+fat body or hemocytes	12	circulatory	fat body;hemolymph	multi_match:fat body|hemolymph
+Whole head	12	head_neck	head	pattern:head
+head-thorax	12	head_neck;thorax	head;thorax	multi_match:head|thorax
+Sperm bundles	12	reproductive	reproductive system	pattern:reproductive system
+Carcass_minus_gonad	12	reproductive;other	reproductive system;carcass	multi_match:reproductive system|carcass
+serosa	12	other	serosa	exact
+AN	12	unknown	unknown	no_match
+BmN	12	unknown	unknown	cell_line_or_cells
+Midgut cell-line	12	unknown	unknown	cell_line_or_cells
+Not applicable	12	unknown	unknown	missing
+medial	12	unknown	unknown	no_match
+Adult moth	12	whole_body	whole body	pattern:whole body
+Whole insect tissue	12	whole_body	whole body	pattern:whole body
+Whole larva x 6	12	whole_body	whole body	pattern:whole body
+all body	12	whole_body	whole body	pattern:whole body
+entirety	12	whole_body	whole body	pattern:whole body
+larval body	12	whole_body	whole body	pattern:whole body
+pupae	12	whole_body	whole body	pattern:whole body
+third instar larvae	12	whole_body	whole body	pattern:whole body
+whole B.mori larva, 3rd day of 5th instar	12	whole_body	whole body	pattern:whole body
+whole L4 larvae	12	whole_body	whole body	pattern:whole body
+whole bady	12	whole_body	whole body	pattern:whole body
+whole bodies	12	whole_body	whole body	pattern:whole body
+Wing	12	thorax	wing	exact
+pupal forewings	12	thorax	wing	pattern:wing
+wings	12	thorax	wing	pattern:wing
+fat	11	circulatory	fat body	pattern:fat body
+Anterior silk gland	11	digestive	silk gland	pattern:silk gland
+distal	11	unknown	unknown	no_match
+insect tissue	11	unknown	unknown	no_match
+mixture	11	unknown	unknown	no_match
+proximal	11	unknown	unknown	no_match
+adults	11	whole_body	whole body	pattern:whole body
+Larval Wing	11	thorax	wing	pattern:wing
+larval gut	10	digestive	gut	pattern:gut
+Pupae head	10	head_neck	head	pattern:head
+labial palps and proboscis	10	head_neck	mouthpart	pattern:mouthpart
+prothoracic glands	10	endocrine	prothoracic gland	pattern:prothoracic gland
+middle silkgland	10	digestive	silk gland	pattern:silk gland
+Larva	10	whole_body	whole body	pattern:whole body
+Larval body	10	whole_body	whole body	pattern:whole body
+Pupa	10	whole_body	whole body	pattern:whole body
+Whole organism	10	whole_body	whole body	pattern:whole body
+whole larvae body	10	whole_body	whole body	pattern:whole body
+adult antennae	9	sensory	antenna	pattern:antenna
+foregut	9	digestive	foregut	exact
+blood cell	9	circulatory	hemolymph	pattern:hemolymph
+Legs	9	thorax	leg	pattern:leg
+posterior silkgland	9	digestive	silk gland	pattern:silk gland
+Larval tissue	9	unknown	unknown	no_match
+Total body	9	whole_body	whole body	pattern:whole body
+body of beet armyworm	9	whole_body	whole body	pattern:whole body
+individuls	9	whole_body	whole body	pattern:whole body
+the whole	9	whole_body	whole body	pattern:whole body
+third larvae	9	whole_body	whole body	pattern:whole body
+whole adult	9	whole_body	whole body	pattern:whole body
+whole body of larvae	9	whole_body	whole body	pattern:whole body
+Wing, eyespot in Cu1 wing sector	9	thorax	wing	pattern:wing
+Head, including antennae	8	sensory;head_neck	antenna;head	multi_match:antenna|head
+brains	8	nervous	brain	pattern:brain
+eyes	8	sensory	eye	pattern:eye
+Leg	8	thorax	leg	exact
+T1-leg	8	thorax	leg	pattern:leg
+overy	8	reproductive	ovary	pattern:ovary
+Silkgland	8	digestive	silk gland	pattern:silk gland
+silk glands	8	digestive	silk gland	pattern:silk gland
+silk glands, posterior section	8	digestive	silk gland	pattern:silk gland
+Testis and Sperm	8	reproductive	testis	pattern:testis
+thoracic segment of trunk	8	thorax	thorax	pattern:thorax
+BmN cells were cultured cell line in vitro.	8	unknown	unknown	cell_line_or_cells
+Cell Culture	8	unknown	unknown	cell_line_or_cells
+Total	8	unknown	unknown	no_match
+cells	8	unknown	unknown	cell_line_or_cells
+cultured cells (VF cells)	8	unknown	unknown	cell_line_or_cells
+multi	8	unknown	unknown	no_match
+Ferilized eggs	8	whole_body	whole body	pattern:whole body
+early embryo	8	whole_body	whole body	pattern:whole body
+whole larve	8	whole_body	whole body	pattern:whole body
+Forewing	8	thorax	wing	pattern:wing
+Adult brain	7	nervous	brain	pattern:brain
+HEAD	7	head_neck	head	exact
+Collected diapausing larvae were reared in the laboratory to obtain fresh tissues from various developmental stages: eggs, larval whole body and hemolymph from the fifth instar and heads/thorax from male and female adults.	7	head_neck;thorax;circulatory	head;thorax;hemolymph	multi_match:head|thorax|hemolymph
+salivary gland	7	digestive	salivary gland	exact
+posterior silk glands	7	digestive	silk gland	pattern:silk gland
+Mg	7	unknown	unknown	no_match
+insect	7	unknown	unknown	no_match
+Whole larvae	7	whole_body	whole body	pattern:whole body
+all tissues	7	whole_body	whole body	pattern:whole body
+pupa	7	whole_body	whole body	pattern:whole body
+Segment A8	6	abdomen	abdomen	pattern:abdomen
+abdomen and pheromone gland	6	abdomen;endocrine	abdomen;pheromone gland	multi_match:abdomen|pheromone gland
+Thorax/abdomen	6	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+Bursal Gland	6	reproductive	accessory gland	pattern:accessory gland
+accessory gland	6	reproductive	accessory gland	exact
+Adult antennae	6	sensory	antenna	pattern:antenna
+Left-Antenna	6	sensory	antenna	pattern:antenna
+Right-Antenna	6	sensory	antenna	pattern:antenna
+Antenna/Head/LabialPalp	6	sensory;head_neck	antenna;head	multi_match:antenna|head
+Head+Antennal	6	sensory;head_neck	antenna;head	multi_match:antenna|head
+antennae, mouthparts, legs	6	sensory;thorax;head_neck	antenna;leg;mouthpart	multi_match:antenna|leg|mouthpart
+antennae and palps	6	sensory;head_neck	antenna;mouthpart	multi_match:antenna|mouthpart
+brain, corpora cardiaca and corpora allata	6	nervous	brain	pattern:brain
+ductus ejaculatorius simplex	6	reproductive	ejaculatory duct	pattern:ejaculatory duct
+ejaculatory duct	6	reproductive	ejaculatory duct	exact
+Cuticle	6	body_wall	epidermis	pattern:epidermis
+compound eye	6	sensory	eye	pattern:eye
+fatt body	6	circulatory	fat body	pattern:fat body
+ovaries and fat bodies	6	circulatory;reproductive	fat body;ovary	multi_match:fat body|ovary
+gut of larvae	6	digestive	gut	pattern:gut
+gut tissue	6	digestive	gut	pattern:gut
+gut tissues	6	digestive	gut	pattern:gut
+without gut	6	digestive	gut	pattern:gut
+HEAD|THORAX	6	head_neck;thorax	head;thorax	multi_match:head|thorax
+larvae midgut	6	digestive	midgut	pattern:midgut
+Mouthparts	6	head_neck	mouthpart	pattern:mouthpart
+Overy	6	reproductive	ovary	pattern:ovary
+Pheromone glands	6	endocrine	pheromone gland	pattern:pheromone gland
+reproductive organ	6	reproductive	reproductive tract	pattern:reproductive tract
+The salivary gland	6	digestive	salivary gland	pattern:salivary gland
+Anterior part of the middle silk gland	6	digestive	silk gland	pattern:silk gland
+Middle part of the middle silk gland	6	digestive	silk gland	pattern:silk gland
+Posterior part of the middle silk gland	6	digestive	silk gland	pattern:silk gland
+Silk gland anterior	6	digestive	silk gland	pattern:silk gland
+Silk glandl	6	digestive	silk gland	pattern:silk gland
+The posterior silk gland	6	digestive	silk gland	pattern:silk gland
+anterior silk glands and middle silk glands	6	digestive	silk gland	pattern:silk gland
+silk gland middle	6	digestive	silk gland	pattern:silk gland
+silk gland posterior	6	digestive	silk gland	pattern:silk gland
+Testicles	6	reproductive	testis	pattern:testis
+BmE cells	6	unknown	unknown	cell_line_or_cells
+BmN cell line	6	unknown	unknown	cell_line_or_cells
+PG	6	unknown	unknown	no_match
+RNA	6	unknown	unknown	no_match
+Spodoptera frugiperda	6	unknown	unknown	no_match
+Total RNA	6	unknown	unknown	no_match
+cocoa pod	6	unknown	unknown	no_match
+fruit	6	unknown	unknown	no_match
+mixed tissue	6	unknown	unknown	no_match
+third instar	6	unknown	unknown	no_match
+whole cell	6	unknown	unknown	no_match
+All the insect body	6	whole_body	whole body	pattern:whole body
+Egg, Larval Instar, Adult	6	whole_body	whole body	pattern:whole body
+Entire insect	6	whole_body	whole body	pattern:whole body
+Hole larva	6	whole_body	whole body	pattern:whole body
+Individual	6	whole_body	whole body	pattern:whole body
+Larvae	6	whole_body	whole body	pattern:whole body
+The entire larva	6	whole_body	whole body	pattern:whole body
+all tissue	6	whole_body	whole body	pattern:whole body
+eggs, L3 and L5 larvae, pupae (early and late), adults	6	whole_body	whole body	pattern:whole body
+mixed of egg and larval individuals	6	whole_body	whole body	pattern:whole body
+mixed of molting and moth individuals	6	whole_body	whole body	pattern:whole body
+the whole-body tissue mixtures	6	whole_body	whole body	pattern:whole body
+whole silkworm	6	whole_body	whole body	pattern:whole body
+Hind wing	6	thorax	wing	pattern:wing
+Left forewing discs	6	thorax	wing	pattern:wing
+Wing disc	6	thorax	wing	pattern:wing
+Wing, eyespot in M3 wing sector	6	thorax	wing	pattern:wing
+hindwings	6	thorax	wing	pattern:wing
+whole body, no wings	6	thorax	wing	pattern:wing
+Abdomen	5	abdomen	abdomen	exact
+Segment A7	5	abdomen	abdomen	pattern:abdomen
+THORAX | ABDOMEN	5	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+antennal	5	sensory	antenna	pattern:antenna
+fatty body	5	circulatory	fat body	pattern:fat body
+heads	5	head_neck	head	pattern:head
+head and thorax	5	head_neck;thorax	head;thorax	multi_match:head|thorax
+Male leg	5	thorax	leg	pattern:leg
+maxilla	5	head_neck	mouthpart	pattern:mouthpart
+ovaries	5	reproductive	ovary	pattern:ovary
+Bursa	5	reproductive	reproductive tract	pattern:reproductive tract
+cultured cells	5	unknown	unknown	cell_line_or_cells
+Whole	5	whole_body	whole body	pattern:whole body
+Whole larvae body	5	whole_body	whole body	pattern:whole body
+whole embryo	5	whole_body	whole body	pattern:whole body
+whole embryos	5	whole_body	whole body	pattern:whole body
+48h_Forewing2	5	thorax	wing	pattern:wing
+48h_Forewing3	5	thorax	wing	pattern:wing
+Membranous wings	5	thorax	wing	pattern:wing
+Muscle (abdominal)	4	abdomen;musculoskeletal	abdomen;muscle	multi_match:abdomen|muscle
+Adult antenna	4	sensory	antenna	pattern:antenna
+Female antennae	4	sensory	antenna	pattern:antenna
+female antennae	4	sensory	antenna	pattern:antenna
+male antennae	4	sensory	antenna	pattern:antenna
+Brain (heads with antennae)	4	sensory;head_neck;nervous	antenna;head;brain	multi_match:antenna|head|brain
+eye and brain	4	nervous;sensory	brain;eye	multi_match:brain|eye
+carcass, rep1	4	other	carcass	pattern:carcass
+carcass, rep2	4	other	carcass	pattern:carcass
+carcass, rep3	4	other	carcass	pattern:carcass
+carcass, rep4	4	other	carcass	pattern:carcass
+cuticle, fat body, gut	4	circulatory;body_wall;digestive	fat body;epidermis;gut	multi_match:fat body|epidermis|gut
+proleg	4	thorax	foot	pattern:foot
+tissues except gut	4	digestive	gut	pattern:gut
+Female head	4	head_neck	head	pattern:head
+Head of G2 adult	4	head_neck	head	pattern:head
+Larval head	4	head_neck	head	pattern:head
+larval heads	4	head_neck	head	pattern:head
+pools of thorax, heads, abdomen	4	head_neck;abdomen;thorax	head;abdomen;thorax	multi_match:head|abdomen|thorax
+Brain/Head	4	head_neck;nervous	head;brain	multi_match:head|brain
+Body Carcass (minus head)	4	head_neck;other	head;carcass	multi_match:head|carcass
+THORAX, HEAD	4	head_neck;thorax	head;thorax	multi_match:head|thorax
+Hemocyte	4	circulatory	hemolymph	pattern:hemolymph
+horn	4	body_wall	horn	exact
+Female leg	4	thorax	leg	pattern:leg
+T1 leg	4	thorax	leg	pattern:leg
+T2 leg	4	thorax	leg	pattern:leg
+T3 leg	4	thorax	leg	pattern:leg
+anterior midgut	4	digestive	midgut	pattern:midgut
+middle midgut	4	digestive	midgut	pattern:midgut
+posterior midgut	4	digestive	midgut	pattern:midgut
+the midgut of 4 to 5 larva	4	digestive	midgut	pattern:midgut
+Palps	4	head_neck	mouthpart	pattern:mouthpart
+mouthparts	4	head_neck	mouthpart	pattern:mouthpart
+Central Nervous System	4	nervous	nervous system	pattern:nervous system
+Pupal Ovary	4	reproductive	ovary	pattern:ovary
+animal ovary	4	reproductive	ovary	pattern:ovary
+oviduct	4	reproductive	oviduct	exact
+female pheromone gland	4	endocrine	pheromone gland	pattern:pheromone gland
+larva without gonads	4	reproductive;whole_body	reproductive system;whole body	multi_match:reproductive system|whole body
+Anterior Silk Gland	4	digestive	silk gland	pattern:silk gland
+Middle Silk Gland	4	digestive	silk gland	pattern:silk gland
+Posterior Silk Gland	4	digestive	silk gland	pattern:silk gland
+postsilk gland	4	digestive	silk gland	pattern:silk gland
+silk glands, anterior and middle section	4	digestive	silk gland	pattern:silk gland
+Female thorax	4	thorax	thorax	pattern:thorax
+thoracic feet	4	thorax	thorax;foot	multi_match:thorax|foot
+BmN4 - Bombyx mori ovary-derived cultured cell line	4	unknown	unknown	cell_line_or_cells
+Cultured cell derived from ovary	4	unknown	unknown	cell_line_or_cells
+soma	4	unknown	unknown	no_match
+Egg	4	whole_body	whole body	pattern:whole body
+whole larvae, pooled	4	whole_body	whole body	pattern:whole body
+whole moth	4	whole_body	whole body	pattern:whole body
+36h_Forewing2	4	thorax	wing	pattern:wing
+Multiple, wings	4	thorax	wing	pattern:wing
+forewing_Cu1_control_tissue	4	thorax	wing	pattern:wing
+forewing_Cu1_eyespot	4	thorax	wing	pattern:wing
+forewing_M3_control_tissue	4	thorax	wing	pattern:wing
+forewing_margin	4	thorax	wing	pattern:wing
+wounded_forewing	4	thorax	wing	pattern:wing
+abdomen of female	3	abdomen	abdomen	pattern:abdomen
+Muscle (from abdomen)	3	abdomen;musculoskeletal	abdomen;muscle	multi_match:abdomen|muscle
+Sex accessory gland	3	reproductive	accessory gland	pattern:accessory gland
+Adult antennae infected	3	sensory	antenna	pattern:antenna
+Female moth antennae	3	sensory	antenna	pattern:antenna
+Male moth antennae	3	sensory	antenna	pattern:antenna
+antennae of female adult	3	sensory	antenna	pattern:antenna
+antennae of male adult	3	sensory	antenna	pattern:antenna
+Adult brain infected	3	nervous	brain	pattern:brain
+The epidermis of the fifth instar larvae	3	body_wall	epidermis	pattern:epidermis
+integument of late fourth-instar larvae (epidermis and cuticle)	3	body_wall	epidermis	pattern:epidermis
+fat bodies of late fourth-instar larvae	3	circulatory	fat body	pattern:fat body
+Female foot	3	thorax	foot	pattern:foot
+female tarsi	3	thorax	foot	pattern:foot
+male tarsi	3	thorax	foot	pattern:foot
+tarsus	3	thorax	foot	pattern:foot
+Head of adult	3	head_neck	head	pattern:head
+Larval head infected	3	head_neck	head	pattern:head
+Larval heads	3	head_neck	head	pattern:head
+head of female adult	3	head_neck	head	pattern:head
+head of male adult	3	head_neck	head	pattern:head
+Brain (Heads)	3	head_neck;nervous	head;brain	multi_match:head|brain
+head,thorax,leg	3	head_neck;thorax	head;leg;thorax	multi_match:head|leg|thorax
+haemolymph of fourth-instar larvae	3	circulatory	hemolymph	pattern:hemolymph
+Labila glands	3	digestive	labial gland	pattern:labial gland
+leg of female adult	3	thorax	leg	pattern:leg
+leg of male adult	3	thorax	leg	pattern:leg
+Malpighian Tubules	3	excretory	malpighian tubule	pattern:malpighian tubule
+malpighian tube	3	excretory	malpighian tubule	pattern:malpighian tubule
+mid gut	3	digestive	midgut	pattern:midgut
+midgut replicate_1	3	digestive	midgut	pattern:midgut
+midgut replicate_2	3	digestive	midgut	pattern:midgut
+midgut replicate_3	3	digestive	midgut	pattern:midgut
+midgut, rep1	3	digestive	midgut	pattern:midgut
+midgut, rep2	3	digestive	midgut	pattern:midgut
+midgut, rep3	3	digestive	midgut	pattern:midgut
+midgut, rep4	3	digestive	midgut	pattern:midgut
+midgut1	3	digestive	midgut	pattern:midgut
+midgut2	3	digestive	midgut	pattern:midgut
+labial palp of female adult	3	head_neck	mouthpart	pattern:mouthpart
+labial palp of male adult	3	head_neck	mouthpart	pattern:mouthpart
+MUSCLE	3	musculoskeletal	muscle	exact
+ventral nerve cord	3	nervous	nervous system	pattern:nervous system
+Non-armyworm separata ovary	3	reproductive	ovary	pattern:ovary
+Pupa ovarian tissue	3	reproductive	ovary	pattern:ovary
+Female ovipositors	3	abdomen	ovipositor	pattern:ovipositor
+ovipositor bristle zone	3	abdomen	ovipositor	pattern:ovipositor
+sex pheromone gland	3	endocrine	pheromone gland	pattern:pheromone gland
+salivary glands of late fourth-instar larvae	3	digestive	salivary gland	pattern:salivary gland
+the residual tissues removing the salivary glands	3	digestive	salivary gland	pattern:salivary gland
+Posterior silkgland	3	digestive	silk gland	pattern:silk gland
+Non-Mythimna separata Testis	3	reproductive	testis	pattern:testis
+Male thorax	3	thorax	thorax	pattern:thorax
+Bombyx mori cell	3	unknown	unknown	no_match
+Bombyx mori_body infection with virus	3	unknown	unknown	no_match
+Female germline	3	unknown	unknown	no_match
+Guangdong Key Laboratory of Animal Conservation and Resource Utilization	3	unknown	unknown	no_match
+Ovary cell line	3	unknown	unknown	cell_line_or_cells
+epithelium (flat, 0hr after hatching)	3	unknown	unknown	no_match
+epithelium (flat, 15hr after hatching)	3	unknown	unknown	no_match
+epithelium (protrusion, 0hr after hatching)	3	unknown	unknown	no_match
+epithelium (protrusion, 15hr after hatching)	3	unknown	unknown	no_match
+Adult	3	whole_body	whole body	pattern:whole body
+Egg, larvae, pupae, adult whole body	3	whole_body	whole body	pattern:whole body
+Entire	3	whole_body	whole body	pattern:whole body
+Fourth instar larva	3	whole_body	whole body	pattern:whole body
+Larva stage 1	3	whole_body	whole body	pattern:whole body
+Larva stage 2	3	whole_body	whole body	pattern:whole body
+Larva stage 3	3	whole_body	whole body	pattern:whole body
+Larva stage 4	3	whole_body	whole body	pattern:whole body
+Larva stage 5	3	whole_body	whole body	pattern:whole body
+Second instar larvae	3	whole_body	whole body	pattern:whole body
+Whole Larva	3	whole_body	whole body	pattern:whole body
+Whole animal	3	whole_body	whole body	pattern:whole body
+Whole body tissue	3	whole_body	whole body	pattern:whole body
+Whole insect body	3	whole_body	whole body	pattern:whole body
+Whole larvae 4th instar	3	whole_body	whole body	pattern:whole body
+full embryo	3	whole_body	whole body	pattern:whole body
+guts of fourth-instar larvae	3	whole_body	whole body	pattern:whole body
+guts of late fourth-instar larvae	3	whole_body	whole body	pattern:whole body
+guts of second instar larvae	3	whole_body	whole body	pattern:whole body
+guts of third instar larvae	3	whole_body	whole body	pattern:whole body
+whole body of Grapholitha molesta	3	whole_body	whole body	pattern:whole body
+whole eggs	3	whole_body	whole body	pattern:whole body
+36h_Forewing1	3	thorax	wing	pattern:wing
+36h_Hindwing2	3	thorax	wing	pattern:wing
+36h_Hindwing3	3	thorax	wing	pattern:wing
+48h_Forewing1	3	thorax	wing	pattern:wing
+48h_Hindwing1	3	thorax	wing	pattern:wing
+48h_Hindwing2	3	thorax	wing	pattern:wing
+48h_Hindwing3	3	thorax	wing	pattern:wing
+5th_Forewing	3	thorax	wing	pattern:wing
+5th_Hindwing	3	thorax	wing	pattern:wing
+hind wing (black region)	3	thorax	wing	pattern:wing
+hind wing (red region)	3	thorax	wing	pattern:wing
+wing of female adult	3	thorax	wing	pattern:wing
+wing of male adult	3	thorax	wing	pattern:wing
+pooled unmated female adult abdomen tip	2	abdomen	abdomen	pattern:abdomen
+Thorax abdomen	2	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+ANTENNA	2	sensory	antenna	exact
+Feeler	2	sensory	antenna	pattern:antenna
+antennae1-1	2	sensory	antenna	pattern:antenna
+antennae2-1	2	sensory	antenna	pattern:antenna
+antennae3-1	2	sensory	antenna	pattern:antenna
+antennae, legs, abdominal segments	2	sensory;thorax;abdomen	antenna;leg;abdomen	multi_match:antenna|leg|abdomen
+antennae and maxillary palps	2	sensory;head_neck	antenna;mouthpart	multi_match:antenna|mouthpart
+9th ganglion	2	nervous	brain	pattern:brain
+Larval epidermis	2	body_wall	epidermis	pattern:epidermis
+larval epidermis	2	body_wall	epidermis	pattern:epidermis
+Fat body of silkworms	2	circulatory	fat body	pattern:fat body
+Larval fatbody	2	circulatory	fat body	pattern:fat body
+fatbody2	2	circulatory	fat body	pattern:fat body
+larval fat body	2	circulatory	fat body	pattern:fat body
+foregut, rep1	2	digestive	foregut	pattern:foregut
+foregut, rep2	2	digestive	foregut	pattern:foregut
+foregut, rep3	2	digestive	foregut	pattern:foregut
+foregut, rep4	2	digestive	foregut	pattern:foregut
+Intestinal tissue	2	digestive	gut	pattern:gut
+mesenteron	2	digestive	gut	pattern:gut
+Adult head	2	head_neck	head	pattern:head
+Adult heads (pool of one male and one female heads)	2	head_neck	head	pattern:head
+Fifth instar whole larval head (L5)	2	head_neck	head	pattern:head
+head tissue	2	head_neck	head	pattern:head
+heads1-1	2	head_neck	head	pattern:head
+heads2-1	2	head_neck	head	pattern:head
+heads3-1	2	head_neck	head	pattern:head
+larvea head	2	head_neck	head	pattern:head
+female head + abdomen, after 24h mated，replicate1	2	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+female head + abdomen, after 24h mated，replicate2	2	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+female head + abdomen, after 2h mated，replicate1	2	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+female head + abdomen, after 2h mated，replicate2	2	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+female head + abdomen, after 6h mated，replicate1	2	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+female head + abdomen, after 6h mated，replicate2	2	head_neck;abdomen	head;abdomen	multi_match:head|abdomen
+head, thorax, and abdomen	2	head_neck;abdomen;thorax	head;abdomen;thorax	multi_match:head|abdomen|thorax
+Multiple Prepupal, wings, head	2	head_neck;thorax	head;wing	multi_match:head|wing
+haemolymph 3	2	circulatory	hemolymph	pattern:hemolymph
+hindgut, rep1	2	digestive	hindgut	pattern:hindgut
+hindgut, rep2	2	digestive	hindgut	pattern:hindgut
+hindgut, rep3	2	digestive	hindgut	pattern:hindgut
+hindgut, rep4	2	digestive	hindgut	pattern:hindgut
+Thorax abdomen and legs	2	thorax;abdomen	leg;abdomen;thorax	multi_match:leg|abdomen|thorax
+mouthparts, legs	2	thorax;head_neck	leg;mouthpart	multi_match:leg|mouthpart
+Larval malphigian tubules	2	excretory	malpighian tubule	pattern:malpighian tubule
+Larval midgut	2	digestive	midgut	pattern:midgut
+Midgut tissue	2	digestive	midgut	pattern:midgut
+Migdut	2	digestive	midgut	pattern:midgut
+anterior midgut, rep1	2	digestive	midgut	pattern:midgut
+anterior midgut, rep2	2	digestive	midgut	pattern:midgut
+anterior midgut, rep3	2	digestive	midgut	pattern:midgut
+anterior midgut, rep4	2	digestive	midgut	pattern:midgut
+larval midgut	2	digestive	midgut	pattern:midgut
+middle midgut, rep1	2	digestive	midgut	pattern:midgut
+middle midgut, rep2	2	digestive	midgut	pattern:midgut
+middle midgut, rep3	2	digestive	midgut	pattern:midgut
+middle midgut, rep4	2	digestive	midgut	pattern:midgut
+midgut3	2	digestive	midgut	pattern:midgut
+midgut4	2	digestive	midgut	pattern:midgut
+midgut5	2	digestive	midgut	pattern:midgut
+midgut6	2	digestive	midgut	pattern:midgut
+posterior midgut, rep1	2	digestive	midgut	pattern:midgut
+posterior midgut, rep2	2	digestive	midgut	pattern:midgut
+posterior midgut, rep3	2	digestive	midgut	pattern:midgut
+posterior midgut, rep4	2	digestive	midgut	pattern:midgut
+Proboscis	2	head_neck	mouthpart	pattern:mouthpart
+mouthpart	2	head_neck	mouthpart	exact
+tentacle	2	head_neck	mouthpart	pattern:mouthpart
+Pupal flight muscle	2	musculoskeletal	muscle	pattern:muscle
+Pupal tergosternal muscle	2	musculoskeletal	muscle	pattern:muscle
+Larval nervous system	2	nervous	nervous system	pattern:nervous system
+Nerve Cord	2	nervous	nervous system	pattern:nervous system
+Adult ovaries, one female	2	reproductive	ovary	pattern:ovary
+Ovaries	2	reproductive	ovary	pattern:ovary
+insect ovary	2	reproductive	ovary	pattern:ovary
+ovary of WT1	2	reproductive	ovary	pattern:ovary
+ovary of WT2	2	reproductive	ovary	pattern:ovary
+ovary of WT3	2	reproductive	ovary	pattern:ovary
+ovary of mutant1	2	reproductive	ovary	pattern:ovary
+ovary of mutant2	2	reproductive	ovary	pattern:ovary
+ovary of mutant3	2	reproductive	ovary	pattern:ovary
+ovipositor	2	abdomen	ovipositor	exact
+Adult pheromone gland	2	endocrine	pheromone gland	pattern:pheromone gland
+Sex pheromone gland	2	endocrine	pheromone gland	pattern:pheromone gland
+ovipositor and pheromonal gland	2	endocrine;abdomen	pheromone gland;ovipositor	multi_match:pheromone gland|ovipositor
+Reproductive system	2	reproductive	reproductive system	exact
+Reproductive organ	2	reproductive	reproductive tract	pattern:reproductive tract
+Fifth instar silk glands (L5, pool of three individuals)	2	digestive	silk gland	pattern:silk gland
+Larval silk gland	2	digestive	silk gland	pattern:silk gland
+Silk glands	2	digestive	silk gland	pattern:silk gland
+anterior middle silkgland	2	digestive	silk gland	pattern:silk gland
+anterior silkgland	2	digestive	silk gland	pattern:silk gland
+middle of middle silkgland	2	digestive	silk gland	pattern:silk gland
+posterior middle silkgland	2	digestive	silk gland	pattern:silk gland
+the silkgland	2	digestive	silk gland	pattern:silk gland
+Adult testes, one male	2	reproductive	testis	pattern:testis
+testis of WT1	2	reproductive	testis	pattern:testis
+testis of WT2	2	reproductive	testis	pattern:testis
+testis of WT3	2	reproductive	testis	pattern:testis
+testis of mutant1	2	reproductive	testis	pattern:testis
+testis of mutant2	2	reproductive	testis	pattern:testis
+testis of mutant3	2	reproductive	testis	pattern:testis
+adult thorax	2	thorax	thorax	pattern:thorax
+trachea	2	respiratory	trachea	exact
+BmE	2	unknown	unknown	cell_line_or_cells
+BmN Cells	2	unknown	unknown	cell_line_or_cells
+MID BODY	2	unknown	unknown	no_match
+Male germline	2	unknown	unknown	no_match
+Mix	2	unknown	unknown	no_match
+Ovarian cells	2	unknown	unknown	cell_line_or_cells
+Ovary derived cell line	2	unknown	unknown	cell_line_or_cells
+bodies1-1	2	unknown	unknown	no_match
+bodies2-1	2	unknown	unknown	no_match
+bodies3-1	2	unknown	unknown	no_match
+corpora allatum	2	unknown	unknown	no_match
+Adult male	2	whole_body	whole body	pattern:whole body
+Complete worm	2	whole_body	whole body	pattern:whole body
+Egg / Embryo	2	whole_body	whole body	pattern:whole body
+Full body	2	whole_body	whole body	pattern:whole body
+WHOLE BODY	2	whole_body	whole body	exact
+Whole Insect	2	whole_body	whole body	pattern:whole body
+Whole larva body	2	whole_body	whole body	pattern:whole body
+embryo replicate_1	2	whole_body	whole body	pattern:whole body
+embryo replicate_2	2	whole_body	whole body	pattern:whole body
+embryo replicate_3	2	whole_body	whole body	pattern:whole body
+pupa rep2	2	whole_body	whole body	pattern:whole body
+whole animals	2	whole_body	whole body	pattern:whole body
+whole egg	2	whole_body	whole body	pattern:whole body
+whole egg (appr 200)	2	whole_body	whole body	pattern:whole body
+whole organism, stomach removed	2	whole_body	whole body	pattern:whole body
+whole pupae, pooled	2	whole_body	whole body	pattern:whole body
+36h_Forewing3	2	thorax	wing	pattern:wing
+36h_Hindwing1	2	thorax	wing	pattern:wing
+Larval wing disc	2	thorax	wing	pattern:wing
+Multiple D3, wings	2	thorax	wing	pattern:wing
+whole body except wings and genitalia	2	thorax	wing	pattern:wing
+Abdominal tip	1	abdomen	abdomen	pattern:abdomen
+Abdominal tissues	1	abdomen	abdomen	pattern:abdomen
+Female abdomen	1	abdomen	abdomen	pattern:abdomen
+Male abdomen	1	abdomen	abdomen	pattern:abdomen
+abdomen replicate1	1	abdomen	abdomen	pattern:abdomen
+abdomen replicate2	1	abdomen	abdomen	pattern:abdomen
+abdomen replicate3	1	abdomen	abdomen	pattern:abdomen
+abdomen replicate4	1	abdomen	abdomen	pattern:abdomen
+headThorax-abdomen	1	abdomen	abdomen	pattern:abdomen
+pooled mated female adult abdomen tip	1	abdomen	abdomen	pattern:abdomen
+THORAX|ABDOMEN	1	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+Thorax-abdomen	1	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+thorax and abdomen cuticula	1	abdomen;thorax	abdomen;thorax	multi_match:abdomen|thorax
+Female sex gland	1	reproductive	accessory gland	pattern:accessory gland
+accessory gland rep2	1	reproductive	accessory gland	pattern:accessory gland
+sex gland	1	reproductive	accessory gland	pattern:accessory gland
+6th larval_antenna	1	sensory	antenna	pattern:antenna
+Antenna_1	1	sensory	antenna	pattern:antenna
+Antenna_10	1	sensory	antenna	pattern:antenna
+Antenna_11	1	sensory	antenna	pattern:antenna
+Antenna_12	1	sensory	antenna	pattern:antenna
+Antenna_13	1	sensory	antenna	pattern:antenna
+Antenna_14	1	sensory	antenna	pattern:antenna
+Antenna_15	1	sensory	antenna	pattern:antenna
+Antenna_16	1	sensory	antenna	pattern:antenna
+Antenna_17	1	sensory	antenna	pattern:antenna
+Antenna_18	1	sensory	antenna	pattern:antenna
+Antenna_19	1	sensory	antenna	pattern:antenna
+Antenna_2	1	sensory	antenna	pattern:antenna
+Antenna_20	1	sensory	antenna	pattern:antenna
+Antenna_21	1	sensory	antenna	pattern:antenna
+Antenna_22	1	sensory	antenna	pattern:antenna
+Antenna_23	1	sensory	antenna	pattern:antenna
+Antenna_24	1	sensory	antenna	pattern:antenna
+Antenna_25	1	sensory	antenna	pattern:antenna
+Antenna_26	1	sensory	antenna	pattern:antenna
+Antenna_3	1	sensory	antenna	pattern:antenna
+Antenna_4	1	sensory	antenna	pattern:antenna
+Antenna_5	1	sensory	antenna	pattern:antenna
+Antenna_6	1	sensory	antenna	pattern:antenna
+Antenna_7	1	sensory	antenna	pattern:antenna
+Antenna_8	1	sensory	antenna	pattern:antenna
+Antenna_9	1	sensory	antenna	pattern:antenna
+Antennae3	1	sensory	antenna	pattern:antenna
+Female antenna	1	sensory	antenna	pattern:antenna
+Imidacloprid control 12h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Imidacloprid control 36h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Imidacloprid treated 12h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Imidacloprid treated 36h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Male Antennae	1	sensory	antenna	pattern:antenna
+Male antenna	1	sensory	antenna	pattern:antenna
+Male antennae	1	sensory	antenna	pattern:antenna
+Ricin control 12h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Ricin control_36h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Ricin treated 12h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Ricin treated 36h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Xanthotoxin control 12h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Xanthotoxin control_36h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Xanthotoxin treated 12h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+Xanthotoxin treated 36h_6th larval_antenna	1	sensory	antenna	pattern:antenna
+antenna replicate 1	1	sensory	antenna	pattern:antenna
+antenna replicate 2	1	sensory	antenna	pattern:antenna
+antenna replicate 3	1	sensory	antenna	pattern:antenna
+antenna replicate 4	1	sensory	antenna	pattern:antenna
+antennae 1	1	sensory	antenna	pattern:antenna
+antennae 2	1	sensory	antenna	pattern:antenna
+antennae 3	1	sensory	antenna	pattern:antenna
+female adult antennae 1	1	sensory	antenna	pattern:antenna
+female adult antennae 2	1	sensory	antenna	pattern:antenna
+female adult antennae 3	1	sensory	antenna	pattern:antenna
+female adult antennae_1	1	sensory	antenna	pattern:antenna
+female adult antennae_2	1	sensory	antenna	pattern:antenna
+female adult antennae_3	1	sensory	antenna	pattern:antenna
+female body (without antennae)	1	sensory	antenna	pattern:antenna
+female larval antenna biological replicate 1	1	sensory	antenna	pattern:antenna
+female larval antenna biological replicate 2	1	sensory	antenna	pattern:antenna
+female moth antenna biological replicate 1	1	sensory	antenna	pattern:antenna
+female moth antenna biological replicate 2	1	sensory	antenna	pattern:antenna
+female moth_antenna	1	sensory	antenna	pattern:antenna
+male adult antennae 1	1	sensory	antenna	pattern:antenna
+male adult antennae 2	1	sensory	antenna	pattern:antenna
+male adult antennae 3	1	sensory	antenna	pattern:antenna
+male adult antennae_1	1	sensory	antenna	pattern:antenna
+male adult antennae_2	1	sensory	antenna	pattern:antenna
+male adult antennae_3	1	sensory	antenna	pattern:antenna
+male body (without antennae)	1	sensory	antenna	pattern:antenna
+male larval antenna biological replicate 1	1	sensory	antenna	pattern:antenna
+male larval antenna biological replicate 2	1	sensory	antenna	pattern:antenna
+male moth antenna biological replicate 1	1	sensory	antenna	pattern:antenna
+male moth antenna biological replicate 2	1	sensory	antenna	pattern:antenna
+male moth_antenna	1	sensory	antenna	pattern:antenna
+Antennae, reproductive tract, brain	1	sensory;nervous;reproductive	antenna;brain;reproductive tract	multi_match:antenna|brain|reproductive tract
+Pheromone gland, antennae, reproductive tract, brain	1	sensory;nervous;reproductive;endocrine	antenna;brain;reproductive tract;pheromone gland	multi_match:antenna|brain|reproductive tract|pheromone gland
+Head and antennae	1	sensory;head_neck	antenna;head	multi_match:antenna|head
+Brain partially with corpora cardiaca and corpora allata	1	nervous	brain	pattern:brain
+brain1	1	nervous	brain	pattern:brain
+brain10	1	nervous	brain	pattern:brain
+brain11	1	nervous	brain	pattern:brain
+brain12	1	nervous	brain	pattern:brain
+brain13	1	nervous	brain	pattern:brain
+brain14	1	nervous	brain	pattern:brain
+brain15	1	nervous	brain	pattern:brain
+brain16	1	nervous	brain	pattern:brain
+brain2	1	nervous	brain	pattern:brain
+brain3	1	nervous	brain	pattern:brain
+brain4	1	nervous	brain	pattern:brain
+brain5	1	nervous	brain	pattern:brain
+brain6	1	nervous	brain	pattern:brain
+brain7	1	nervous	brain	pattern:brain
+brain8	1	nervous	brain	pattern:brain
+brain9	1	nervous	brain	pattern:brain
+brian-1	1	nervous	brain	pattern:brain
+brian-2	1	nervous	brain	pattern:brain
+brian-3	1	nervous	brain	pattern:brain
+brian-4	1	nervous	brain	pattern:brain
+brian-5	1	nervous	brain	pattern:brain
+brian-6	1	nervous	brain	pattern:brain
+Carcass; larvae	1	other	carcass	pattern:carcass
+Cuticle under defensive setae	1	body_wall	epidermis	pattern:epidermis
+Cuticle under defensive setae (after moult)	1	body_wall	epidermis	pattern:epidermis
+Cuticle under defensive setae (before moult)	1	body_wall	epidermis	pattern:epidermis
+Epidermis-black	1	body_wall	epidermis	pattern:epidermis
+Epidermis-white	1	body_wall	epidermis	pattern:epidermis
+Epidermis_3A	1	body_wall	epidermis	pattern:epidermis
+Epidermis_3P	1	body_wall	epidermis	pattern:epidermis
+Epidermis_4A	1	body_wall	epidermis	pattern:epidermis
+Epidermis_4P	1	body_wall	epidermis	pattern:epidermis
+Epidermis_5A	1	body_wall	epidermis	pattern:epidermis
+Epidermis_5P	1	body_wall	epidermis	pattern:epidermis
+Integument-1	1	body_wall	epidermis	pattern:epidermis
+Integument-2	1	body_wall	epidermis	pattern:epidermis
+Integument-3	1	body_wall	epidermis	pattern:epidermis
+epidermis/cuticle	1	body_wall	epidermis	pattern:epidermis
+Fat_Body_replacate 1	1	circulatory	fat body	pattern:fat body
+Fat_Body_replacate 2	1	circulatory	fat body	pattern:fat body
+Fat_Body_replacate 3	1	circulatory	fat body	pattern:fat body
+Imidacloprid control 48h_6th larval_fatbody	1	circulatory	fat body	pattern:fat body
+Imidacloprid treated 48h_6th larval_fatbody	1	circulatory	fat body	pattern:fat body
+Ricin control 48h_6th larval_fatbody	1	circulatory	fat body	pattern:fat body
+Ricin treated 48h_6th larval_fatbody	1	circulatory	fat body	pattern:fat body
+Xanthotoxin control 48h_6th larval_fatbody	1	circulatory	fat body	pattern:fat body
+Xanthotoxin treated 48h_6th larval_fatbody	1	circulatory	fat body	pattern:fat body
+fatabody	1	circulatory	fat body	pattern:fat body
+fatbady1	1	circulatory	fat body	pattern:fat body
+fatbody1	1	circulatory	fat body	pattern:fat body
+fatbody10	1	circulatory	fat body	pattern:fat body
+fatbody11	1	circulatory	fat body	pattern:fat body
+fatbody12	1	circulatory	fat body	pattern:fat body
+fatbody13	1	circulatory	fat body	pattern:fat body
+fatbody14	1	circulatory	fat body	pattern:fat body
+fatbody15	1	circulatory	fat body	pattern:fat body
+fatbody16	1	circulatory	fat body	pattern:fat body
+fatbody17	1	circulatory	fat body	pattern:fat body
+fatbody18	1	circulatory	fat body	pattern:fat body
+fatbody19	1	circulatory	fat body	pattern:fat body
+fatbody20	1	circulatory	fat body	pattern:fat body
+fatbody21	1	circulatory	fat body	pattern:fat body
+fatbody22	1	circulatory	fat body	pattern:fat body
+fatbody23	1	circulatory	fat body	pattern:fat body
+fatbody24	1	circulatory	fat body	pattern:fat body
+fatbody25	1	circulatory	fat body	pattern:fat body
+fatbody26	1	circulatory	fat body	pattern:fat body
+fatbody27	1	circulatory	fat body	pattern:fat body
+fatbody28	1	circulatory	fat body	pattern:fat body
+fatbody29	1	circulatory	fat body	pattern:fat body
+fatbody3	1	circulatory	fat body	pattern:fat body
+fatbody30	1	circulatory	fat body	pattern:fat body
+fatbody4	1	circulatory	fat body	pattern:fat body
+fatbody5	1	circulatory	fat body	pattern:fat body
+fatbody6	1	circulatory	fat body	pattern:fat body
+fatbody7	1	circulatory	fat body	pattern:fat body
+fatbody8	1	circulatory	fat body	pattern:fat body
+fatbody9	1	circulatory	fat body	pattern:fat body
+female fat body	1	circulatory	fat body	pattern:fat body
+male fat body	1	circulatory	fat body	pattern:fat body
+thoracic fat body	1	circulatory;thorax	fat body;thorax	multi_match:fat body|thorax
+Female foretarsi	1	thorax	foot	pattern:foot
+Female hindtarsi	1	thorax	foot	pattern:foot
+Female midtarsi	1	thorax	foot	pattern:foot
+Male foretarsi	1	thorax	foot	pattern:foot
+Male hindtarsi	1	thorax	foot	pattern:foot
+Male midtarsi	1	thorax	foot	pattern:foot
+proleg replicate1	1	thorax	foot	pattern:foot
+proleg replicate2	1	thorax	foot	pattern:foot
+proleg replicate3	1	thorax	foot	pattern:foot
+proleg replicate4	1	thorax	foot	pattern:foot
+Foregut	1	digestive	foregut	exact
+Alimentary canal	1	digestive	gut	pattern:gut
+anterior gut	1	digestive	gut	pattern:gut
+larva (gut removed)	1	digestive	gut	pattern:gut
+middle gut	1	digestive	gut	pattern:gut
+posterior gut	1	digestive	gut	pattern:gut
+the alimentary tracts	1	digestive	gut	pattern:gut
+the bodies minus alimentary tracts	1	digestive	gut	pattern:gut
+Female.Head_18C.1	1	head_neck	head	pattern:head
+Female.Head_18C.2	1	head_neck	head	pattern:head
+Female.Head_18C.3m	1	head_neck	head	pattern:head
+Female.Head_25C.1	1	head_neck	head	pattern:head
+Female.Head_25C.2	1	head_neck	head	pattern:head
+Female.Head_25C.3m	1	head_neck	head	pattern:head
+Female.Head_30C.1	1	head_neck	head	pattern:head
+Female.Head_30C.2	1	head_neck	head	pattern:head
+Female.Head_30C.3m	1	head_neck	head	pattern:head
+Head_replacate 1	1	head_neck	head	pattern:head
+Head_replacate 2	1	head_neck	head	pattern:head
+Head_replacate 3	1	head_neck	head	pattern:head
+Heads	1	head_neck	head	pattern:head
+Heads and thoraces	1	head_neck	head	pattern:head
+Male head	1	head_neck	head	pattern:head
+Male.Head_18C.1	1	head_neck	head	pattern:head
+Male.Head_18C.2	1	head_neck	head	pattern:head
+Male.Head_18C.3m	1	head_neck	head	pattern:head
+Male.Head_25C.1	1	head_neck	head	pattern:head
+Male.Head_25C.2	1	head_neck	head	pattern:head
+Male.Head_25C.3m	1	head_neck	head	pattern:head
+Male.Head_30C.1	1	head_neck	head	pattern:head
+Male.Head_30C.2	1	head_neck	head	pattern:head
+Male.Head_30C.3m	1	head_neck	head	pattern:head
+Prepupal Head	1	head_neck	head	pattern:head
+Pupal Head	1	head_neck	head	pattern:head
+Whole insects and heads	1	head_neck	head	pattern:head
+adult head	1	head_neck	head	pattern:head
+female adult head 1	1	head_neck	head	pattern:head
+female adult head 2	1	head_neck	head	pattern:head
+female adult head 3	1	head_neck	head	pattern:head
+fourth-instar larvae head 1	1	head_neck	head	pattern:head
+fourth-instar larvae head 2	1	head_neck	head	pattern:head
+fourth-instar larvae head 3	1	head_neck	head	pattern:head
+head rep2	1	head_neck	head	pattern:head
+head10	1	head_neck	head	pattern:head
+head11	1	head_neck	head	pattern:head
+head12	1	head_neck	head	pattern:head
+head19	1	head_neck	head	pattern:head
+head20	1	head_neck	head	pattern:head
+head21	1	head_neck	head	pattern:head
+head22	1	head_neck	head	pattern:head
+head23	1	head_neck	head	pattern:head
+head24	1	head_neck	head	pattern:head
+head7	1	head_neck	head	pattern:head
+head8	1	head_neck	head	pattern:head
+head9	1	head_neck	head	pattern:head
+mature larvae head 1	1	head_neck	head	pattern:head
+mature larvae head 2	1	head_neck	head	pattern:head
+mature larvae head 3	1	head_neck	head	pattern:head
+second-instar larvae head 1	1	head_neck	head	pattern:head
+second-instar larvae head 2	1	head_neck	head	pattern:head
+second-instar larvae head 3	1	head_neck	head	pattern:head
+third-instar larvae head 1	1	head_neck	head	pattern:head
+third-instar larvae head 2	1	head_neck	head	pattern:head
+third-instar larvae head 3	1	head_neck	head	pattern:head
+head and salivary gland	1	head_neck;digestive	head;salivary gland	multi_match:head|salivary gland
+heart	1	circulatory	heart	exact
+Hemocyte_replacate 1	1	circulatory	hemolymph	pattern:hemolymph
+Hemocyte_replacate 2	1	circulatory	hemolymph	pattern:hemolymph
+Hemocyte_replacate 3	1	circulatory	hemolymph	pattern:hemolymph
+haemolymph 1	1	circulatory	hemolymph	pattern:hemolymph
+haemolymph 2	1	circulatory	hemolymph	pattern:hemolymph
+haemolymph 4	1	circulatory	hemolymph	pattern:hemolymph
+haemolymph 5	1	circulatory	hemolymph	pattern:hemolymph
+hemacyte	1	circulatory	hemolymph	pattern:hemolymph
+Hindgut	1	digestive	hindgut	exact
+hindgut	1	digestive	hindgut	exact
+horn replicate1	1	body_wall	horn	pattern:horn
+horn replicate2	1	body_wall	horn	pattern:horn
+horn replicate3	1	body_wall	horn	pattern:horn
+horn replicate4	1	body_wall	horn	pattern:horn
+Imidacloprid control 12h_6th larval_leg	1	thorax	leg	pattern:leg
+Imidacloprid control_36h_6th larval_leg	1	thorax	leg	pattern:leg
+Imidacloprid treated 12h_6th larval_leg	1	thorax	leg	pattern:leg
+Imidacloprid treated 36h_6th larval_leg	1	thorax	leg	pattern:leg
+LEG	1	thorax	leg	exact
+Ricin control 12h_6th larval_leg	1	thorax	leg	pattern:leg
+Ricin control_36h_6th larval_leg	1	thorax	leg	pattern:leg
+Ricin treated 12h_6th larval_leg	1	thorax	leg	pattern:leg
+Ricin treated 36h_6th larval_leg	1	thorax	leg	pattern:leg
+T1-leg replicate1	1	thorax	leg	pattern:leg
+T1-leg replicate2	1	thorax	leg	pattern:leg
+T1-leg replicate3	1	thorax	leg	pattern:leg
+T1-leg replicate4	1	thorax	leg	pattern:leg
+Xanthotoxin control 12h_6th larval_leg	1	thorax	leg	pattern:leg
+Xanthotoxin control_36h_6th larval_leg	1	thorax	leg	pattern:leg
+Xanthotoxin treated 12h_6th larval_leg	1	thorax	leg	pattern:leg
+Xanthotoxin treated 36h_6th larval_leg	1	thorax	leg	pattern:leg
+body and legs	1	thorax	leg	pattern:leg
+female adult legs 1	1	thorax	leg	pattern:leg
+female adult legs 2	1	thorax	leg	pattern:leg
+female adult legs 3	1	thorax	leg	pattern:leg
+female leg	1	thorax	leg	pattern:leg
+female moth foreleg biological replicate 1	1	thorax	leg	pattern:leg
+female moth foreleg biological replicate 2	1	thorax	leg	pattern:leg
+female moth hindleg biological replicate 1	1	thorax	leg	pattern:leg
+female moth hindleg biological replicate 2	1	thorax	leg	pattern:leg
+female moth_leg	1	thorax	leg	pattern:leg
+foreleg	1	thorax	leg	pattern:leg
+male moth foreleg biological replicate 1	1	thorax	leg	pattern:leg
+male moth foreleg biological replicate 2	1	thorax	leg	pattern:leg
+male moth hindleg biological replicate 1	1	thorax	leg	pattern:leg
+male moth hindleg biological replicate 2	1	thorax	leg	pattern:leg
+male moth_leg	1	thorax	leg	pattern:leg
+female adult foreleg tarsi_1	1	thorax	leg;foot	multi_match:leg|foot
+female adult foreleg tarsi_2	1	thorax	leg;foot	multi_match:leg|foot
+female adult foreleg tarsi_3	1	thorax	leg;foot	multi_match:leg|foot
+male adult foreleg tarsi_1	1	thorax	leg;foot	multi_match:leg|foot
+male adult foreleg tarsi_2	1	thorax	leg;foot	multi_match:leg|foot
+male adult foreleg tarsi_3	1	thorax	leg;foot	multi_match:leg|foot
+palps and legs	1	thorax;head_neck	leg;mouthpart	multi_match:leg|mouthpart
+palps, legs and ovipositors	1	thorax;head_neck;abdomen	leg;mouthpart;ovipositor	multi_match:leg|mouthpart|ovipositor
+6th larval_thoracic leg	1	thorax	leg;thorax	multi_match:leg|thorax
+female larval first thoracic legs biological replicate 1	1	thorax	leg;thorax	multi_match:leg|thorax
+female larval first thoracic legs biological replicate 2	1	thorax	leg;thorax	multi_match:leg|thorax
+female larval second thoracic legs biological replicate 1	1	thorax	leg;thorax	multi_match:leg|thorax
+female larval second thoracic legs biological replicate 2	1	thorax	leg;thorax	multi_match:leg|thorax
+female larval third thoracic legs biological replicate 1	1	thorax	leg;thorax	multi_match:leg|thorax
+female larval third thoracic legs biological replicate 2	1	thorax	leg;thorax	multi_match:leg|thorax
+male larval first thoracic legs biological replicate 1	1	thorax	leg;thorax	multi_match:leg|thorax
+male larval first thoracic legs biological replicate 2	1	thorax	leg;thorax	multi_match:leg|thorax
+male larval second thoracic legs biological replicate 1	1	thorax	leg;thorax	multi_match:leg|thorax
+male larval second thoracic legs biological replicate 2	1	thorax	leg;thorax	multi_match:leg|thorax
+male larval third thoracic legs biological replicate 1	1	thorax	leg;thorax	multi_match:leg|thorax
+male larval third thoracic legs biological replicate 2	1	thorax	leg;thorax	multi_match:leg|thorax
+Imidacloprid control 48h_6th larval_malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+Imidacloprid treated 48h_6th larval_malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+Malpighi_replacate 1	1	excretory	malpighian tubule	pattern:malpighian tubule
+Malpighi_replacate 2	1	excretory	malpighian tubule	pattern:malpighian tubule
+Malpighi_replacate 3	1	excretory	malpighian tubule	pattern:malpighian tubule
+Malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+Ricin control 48h_6th larval_malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+Ricin treated 48h_6th larval_malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+Xanthotoxin control 48h_6th larval_malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+Xanthotoxin treated 48h_6th larval_malpighian tube	1	excretory	malpighian tubule	pattern:malpighian tubule
+malpighian Tubes	1	excretory	malpighian tubule	pattern:malpighian tubule
+malpighian tubes1	1	excretory	malpighian tubule	pattern:malpighian tubule
+malpighian tubes2	1	excretory	malpighian tubule	pattern:malpighian tubule
+malpighian tubules	1	excretory	malpighian tubule	pattern:malpighian tubule
+"=""midgut""&MID(A14,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A15,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A16,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A17,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A18,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A19,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A20,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A21,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A22,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A23,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A24,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A25,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A26,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A27,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A28,2,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A29,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A30,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A31,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A32,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A33,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A34,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A35,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A36,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A37,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A38,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A39,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A40,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A41,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A42,3,2)"	1	digestive	midgut	pattern:midgut
+"=""midgut""&MID(A43,3,2)"	1	digestive	midgut	pattern:midgut
+Anterior midgut; larvae	1	digestive	midgut	pattern:midgut
+Excised Midgut	1	digestive	midgut	pattern:midgut
+Imidacloprid control 12h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Imidacloprid control 48h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Imidacloprid control_36h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Imidacloprid treated 12h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Imidacloprid treated 36h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Imidacloprid treated 48h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Mid gut	1	digestive	midgut	pattern:midgut
+Midgut 2	1	digestive	midgut	pattern:midgut
+Midgut control	1	digestive	midgut	pattern:midgut
+Midgut treated	1	digestive	midgut	pattern:midgut
+Midgut-1	1	digestive	midgut	pattern:midgut
+Midgut-2	1	digestive	midgut	pattern:midgut
+Midgut-3	1	digestive	midgut	pattern:midgut
+Midgut_replacate 1	1	digestive	midgut	pattern:midgut
+Midgut_replacate 2	1	digestive	midgut	pattern:midgut
+Midgut_replacate 3	1	digestive	midgut	pattern:midgut
+Ricin control 12h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Ricin control 48h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Ricin control_36h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Ricin treated 12h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Ricin treated 36h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Ricin treated 48h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Whole midgut; larvae	1	digestive	midgut	pattern:midgut
+Xanthotoxin control 12h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Xanthotoxin control 48h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Xanthotoxin control_36h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Xanthotoxin treated 12h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Xanthotoxin treated 36h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+Xanthotoxin treated 48h_6th larval_midgut	1	digestive	midgut	pattern:midgut
+middut	1	digestive	midgut	pattern:midgut
+midgut replicate_10	1	digestive	midgut	pattern:midgut
+midgut replicate_11	1	digestive	midgut	pattern:midgut
+midgut replicate_12	1	digestive	midgut	pattern:midgut
+midgut replicate_13	1	digestive	midgut	pattern:midgut
+midgut replicate_14	1	digestive	midgut	pattern:midgut
+midgut replicate_15	1	digestive	midgut	pattern:midgut
+midgut replicate_16	1	digestive	midgut	pattern:midgut
+midgut replicate_17	1	digestive	midgut	pattern:midgut
+midgut replicate_18	1	digestive	midgut	pattern:midgut
+midgut replicate_19	1	digestive	midgut	pattern:midgut
+midgut replicate_20	1	digestive	midgut	pattern:midgut
+midgut replicate_21	1	digestive	midgut	pattern:midgut
+midgut replicate_4	1	digestive	midgut	pattern:midgut
+midgut replicate_5	1	digestive	midgut	pattern:midgut
+midgut replicate_6	1	digestive	midgut	pattern:midgut
+midgut replicate_7	1	digestive	midgut	pattern:midgut
+midgut replicate_8	1	digestive	midgut	pattern:midgut
+midgut replicate_9	1	digestive	midgut	pattern:midgut
+midgut10	1	digestive	midgut	pattern:midgut
+midgut11	1	digestive	midgut	pattern:midgut
+midgut12	1	digestive	midgut	pattern:midgut
+midgut13	1	digestive	midgut	pattern:midgut
+midgut14	1	digestive	midgut	pattern:midgut
+midgut15	1	digestive	midgut	pattern:midgut
+midgut16	1	digestive	midgut	pattern:midgut
+midgut17	1	digestive	midgut	pattern:midgut
+midgut18	1	digestive	midgut	pattern:midgut
+midgut7	1	digestive	midgut	pattern:midgut
+midgut8	1	digestive	midgut	pattern:midgut
+midgut9	1	digestive	midgut	pattern:midgut
+Midgut, Carcass	1	digestive;other	midgut;carcass	multi_match:midgut|carcass
+head capsule, midgut	1	digestive;head_neck	midgut;head	multi_match:midgut|head
+midgut head	1	digestive;head_neck	midgut;head	multi_match:midgut|head
+6th larval_epipharynx	1	head_neck	mouthpart	pattern:mouthpart
+6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Female proboscis	1	head_neck	mouthpart	pattern:mouthpart
+Imidacloprid control 12h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Imidacloprid control_36h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Imidacloprid treated 12h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Imidacloprid treated 36h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Male proboscis	1	head_neck	mouthpart	pattern:mouthpart
+Proboscis of female adults	1	head_neck	mouthpart	pattern:mouthpart
+Proboscis of male adults	1	head_neck	mouthpart	pattern:mouthpart
+Ricin control 12h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Ricin control_36h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Ricin treated 12h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Ricin treated 36h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Xanthotoxin control 12h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Xanthotoxin control_36h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Xanthotoxin treated 12h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+Xanthotoxin treated 36h_6th larval_maxilla	1	head_neck	mouthpart	pattern:mouthpart
+femal larval maxlla biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+female adult proboscises_1	1	head_neck	mouthpart	pattern:mouthpart
+female adult proboscises_2	1	head_neck	mouthpart	pattern:mouthpart
+female adult proboscises_3	1	head_neck	mouthpart	pattern:mouthpart
+female larval epipharynx biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+female larval epipharynx biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+female larval maxillary gelea biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+female larval maxillary gelea biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+female larval maxillary palps biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+female larval maxillary palps biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+female larval maxlla biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+female moth_proboscis	1	head_neck	mouthpart	pattern:mouthpart
+labial palps	1	head_neck	mouthpart	pattern:mouthpart
+labrum	1	head_neck	mouthpart	pattern:mouthpart
+larval maxilla	1	head_neck	mouthpart	pattern:mouthpart
+male adult proboscises_1	1	head_neck	mouthpart	pattern:mouthpart
+male adult proboscises_2	1	head_neck	mouthpart	pattern:mouthpart
+male adult proboscises_3	1	head_neck	mouthpart	pattern:mouthpart
+male larval epipharynx biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+male larval epipharynx biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+male larval maxillary gelea biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+male larval maxillary gelea biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+male larval maxillary palps biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+male larval maxillary palps biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+male larval maxlla biological replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+male larval maxlla biological replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+male moth_proboscis	1	head_neck	mouthpart	pattern:mouthpart
+maxilla replicate 1	1	head_neck	mouthpart	pattern:mouthpart
+maxilla replicate 2	1	head_neck	mouthpart	pattern:mouthpart
+maxilla replicate 3	1	head_neck	mouthpart	pattern:mouthpart
+maxilla replicate 4	1	head_neck	mouthpart	pattern:mouthpart
+mouthparts_1	1	head_neck	mouthpart	pattern:mouthpart
+mouthparts_2	1	head_neck	mouthpart	pattern:mouthpart
+mouthparts_3	1	head_neck	mouthpart	pattern:mouthpart
+palps 1	1	head_neck	mouthpart	pattern:mouthpart
+palps 2	1	head_neck	mouthpart	pattern:mouthpart
+palps 3	1	head_neck	mouthpart	pattern:mouthpart
+proboscises	1	head_neck	mouthpart	pattern:mouthpart
+Muscle	1	musculoskeletal	muscle	exact
+muscle 2	1	musculoskeletal	muscle	pattern:muscle
+muscle tissue	1	musculoskeletal	muscle	pattern:muscle
+central nervous system	1	nervous	nervous system	pattern:nervous system
+larval central nervous system	1	nervous	nervous system	pattern:nervous system
+nerve	1	nervous	nervous system	pattern:nervous system
+nerve chord	1	nervous	nervous system	pattern:nervous system
+ventral nerve	1	nervous	nervous system	pattern:nervous system
+Ovary of day 7 pupa	1	reproductive	ovary	pattern:ovary
+Ovary_replacate 1	1	reproductive	ovary	pattern:ovary
+Ovary_replacate 2	1	reproductive	ovary	pattern:ovary
+Ovary_replacate 3	1	reproductive	ovary	pattern:ovary
+adult ovary	1	reproductive	ovary	pattern:ovary
+ovaries - female tract	1	reproductive	ovary	pattern:ovary
+ovary rep2	1	reproductive	ovary	pattern:ovary
+ovary.rep1	1	reproductive	ovary	pattern:ovary
+ovary.rep2	1	reproductive	ovary	pattern:ovary
+ovary.rep3	1	reproductive	ovary	pattern:ovary
+Ovipositor	1	abdomen	ovipositor	exact
+female adult ovipositor 1	1	abdomen	ovipositor	pattern:ovipositor
+female adult ovipositor 2	1	abdomen	ovipositor	pattern:ovipositor
+female adult ovipositor 3	1	abdomen	ovipositor	pattern:ovipositor
+Female pheromone gland	1	endocrine	pheromone gland	pattern:pheromone gland
+Sex pheromone glands	1	endocrine	pheromone gland	pattern:pheromone gland
+Female pheromone gland-ovipositor complex	1	endocrine;abdomen	pheromone gland;ovipositor	multi_match:pheromone gland|ovipositor
+pheomone gland-ovipositor complex	1	endocrine;abdomen	pheromone gland;ovipositor	multi_match:pheromone gland|ovipositor
+Prothoracic gland	1	endocrine	prothoracic gland	exact
+PBP4 knockout male reproductive system, replicate1	1	reproductive	reproductive system	pattern:reproductive system
+PBP4 knockout male reproductive system, replicate2	1	reproductive	reproductive system	pattern:reproductive system
+WT male reproductive system, replicate1	1	reproductive	reproductive system	pattern:reproductive system
+WT male reproductive system, replicate2	1	reproductive	reproductive system	pattern:reproductive system
+male adult reproductive organs 1	1	reproductive	reproductive tract	pattern:reproductive tract
+male adult reproductive organs 2	1	reproductive	reproductive tract	pattern:reproductive tract
+male adult reproductive organs 3	1	reproductive	reproductive tract	pattern:reproductive tract
+Salivary gland	1	digestive	salivary gland	exact
+Whole Body/Salivary Glands	1	digestive	salivary gland	pattern:salivary gland
+salivary gland 1	1	digestive	salivary gland	pattern:salivary gland
+Antorior and Mid_Silk_Gland_replacate 1	1	digestive	silk gland	pattern:silk gland
+Antorior and Mid_Silk_Gland_replacate 2	1	digestive	silk gland	pattern:silk gland
+Antorior and Mid_Silk_Gland_replacate 3	1	digestive	silk gland	pattern:silk gland
+Middle silk gland	1	digestive	silk gland	pattern:silk gland
+Middle silk gland1	1	digestive	silk gland	pattern:silk gland
+Middle silk gland2	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-1	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-2	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-3	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-4	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-5	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-6	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-7	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-8	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland-9	1	digestive	silk gland	pattern:silk gland
+Posterior silk gland1	1	digestive	silk gland	pattern:silk gland
+Posterior_Silk_Gland_replacate 1	1	digestive	silk gland	pattern:silk gland
+Posterior_Silk_Gland_replacate 2	1	digestive	silk gland	pattern:silk gland
+Posterior_Silk_Gland_replacate 3	1	digestive	silk gland	pattern:silk gland
+Silk Gland	1	digestive	silk gland	exact
+anterior and middle silk gland	1	digestive	silk gland	pattern:silk gland
+anterior silk gland	1	digestive	silk gland	pattern:silk gland
+anterior silk glands	1	digestive	silk gland	pattern:silk gland
+larval anterior silkgland	1	digestive	silk gland	pattern:silk gland
+larval middle silkgland	1	digestive	silk gland	pattern:silk gland
+middle silk gland_KO replicate 1	1	digestive	silk gland	pattern:silk gland
+middle silk gland_KO replicate 2	1	digestive	silk gland	pattern:silk gland
+middle silk gland_KO replicate 3	1	digestive	silk gland	pattern:silk gland
+middle silk gland_wild type_replicate 1	1	digestive	silk gland	pattern:silk gland
+middle silk gland_wild type_replicate 2	1	digestive	silk gland	pattern:silk gland
+middle silk gland_wild type_replicate 3	1	digestive	silk gland	pattern:silk gland
+posterior silk gland_KO replicate 1	1	digestive	silk gland	pattern:silk gland
+posterior silk gland_KO replicate 2	1	digestive	silk gland	pattern:silk gland
+posterior silk gland_KO replicate 3	1	digestive	silk gland	pattern:silk gland
+posterior silk gland_wild type_replicate 1	1	digestive	silk gland	pattern:silk gland
+posterior silk gland_wild type_replicate 2	1	digestive	silk gland	pattern:silk gland
+posterior silk gland_wild type_replicate 3	1	digestive	silk gland	pattern:silk gland
+silk gland 2	1	digestive	silk gland	pattern:silk gland
+silkgland1	1	digestive	silk gland	pattern:silk gland
+silkgland10	1	digestive	silk gland	pattern:silk gland
+silkgland11	1	digestive	silk gland	pattern:silk gland
+silkgland12	1	digestive	silk gland	pattern:silk gland
+silkgland13	1	digestive	silk gland	pattern:silk gland
+silkgland14	1	digestive	silk gland	pattern:silk gland
+silkgland15	1	digestive	silk gland	pattern:silk gland
+silkgland16	1	digestive	silk gland	pattern:silk gland
+silkgland2	1	digestive	silk gland	pattern:silk gland
+silkgland3	1	digestive	silk gland	pattern:silk gland
+silkgland4	1	digestive	silk gland	pattern:silk gland
+silkgland5	1	digestive	silk gland	pattern:silk gland
+silkgland6	1	digestive	silk gland	pattern:silk gland
+silkgland7	1	digestive	silk gland	pattern:silk gland
+silkgland8	1	digestive	silk gland	pattern:silk gland
+silkgland9	1	digestive	silk gland	pattern:silk gland
+Testis_replacate 1	1	reproductive	testis	pattern:testis
+Testis_replacate 2	1	reproductive	testis	pattern:testis
+Testis_replacate 3	1	reproductive	testis	pattern:testis
+testes - male tract	1	reproductive	testis	pattern:testis
+testes rep2	1	reproductive	testis	pattern:testis
+testis-1	1	reproductive	testis	pattern:testis
+testis-2	1	reproductive	testis	pattern:testis
+testis-3	1	reproductive	testis	pattern:testis
+testis-4	1	reproductive	testis	pattern:testis
+testis.rep1	1	reproductive	testis	pattern:testis
+testis.rep2	1	reproductive	testis	pattern:testis
+testis.rep3	1	reproductive	testis	pattern:testis
+testis1	1	reproductive	testis	pattern:testis
+testis2	1	reproductive	testis	pattern:testis
+testis3	1	reproductive	testis	pattern:testis
+thorax rep2	1	thorax	thorax	pattern:thorax
+thorax.female.rep1	1	thorax	thorax	pattern:thorax
+thorax.female.rep2	1	thorax	thorax	pattern:thorax
+thorax.female.rep3	1	thorax	thorax	pattern:thorax
+thorax.male.rep1	1	thorax	thorax	pattern:thorax
+thorax.male.rep2	1	thorax	thorax	pattern:thorax
+thorax.male.rep3	1	thorax	thorax	pattern:thorax
+1	1	unknown	unknown	no_match
+10	1	unknown	unknown	no_match
+11	1	unknown	unknown	no_match
+12	1	unknown	unknown	no_match
+2	1	unknown	unknown	no_match
+3	1	unknown	unknown	no_match
+4	1	unknown	unknown	no_match
+5	1	unknown	unknown	no_match
+6	1	unknown	unknown	no_match
+7	1	unknown	unknown	no_match
+8	1	unknown	unknown	no_match
+9	1	unknown	unknown	no_match
+Anterior Canal	1	unknown	unknown	no_match
+Blue	1	unknown	unknown	no_match
+BmN4 cells	1	unknown	unknown	cell_line_or_cells
+CK1	1	unknown	unknown	no_match
+CK2	1	unknown	unknown	no_match
+CK3	1	unknown	unknown	no_match
+CNS	1	unknown	unknown	no_match
+Chest	1	unknown	unknown	no_match
+Ehe_L1_1	1	unknown	unknown	no_match
+Ehe_L2_1	1	unknown	unknown	no_match
+Ehe_L3_1	1	unknown	unknown	no_match
+Ehe_L4_1	1	unknown	unknown	no_match
+Ehe_L5_2	1	unknown	unknown	no_match
+Exoskeleton	1	unknown	unknown	no_match
+F-Low-1	1	unknown	unknown	no_match
+F-Low-2	1	unknown	unknown	no_match
+F-Low-3	1	unknown	unknown	no_match
+F-high-1	1	unknown	unknown	no_match
+F-high-2	1	unknown	unknown	no_match
+F-high-3	1	unknown	unknown	no_match
+Female	1	unknown	unknown	no_match
+GASZ-OV1_1.fq.gz	1	unknown	unknown	no_match
+GASZ-OV2_1.fq.gz	1	unknown	unknown	no_match
+GASZ-OV3_1.fq.gz	1	unknown	unknown	no_match
+GASZ-TE1_1.fq.gz	1	unknown	unknown	no_match
+GASZ-TE2_1.fq.gz	1	unknown	unknown	no_match
+GASZ-TE3_1.fq.gz	1	unknown	unknown	no_match
+Hi5	1	unknown	unknown	no_match
+High Five cells	1	unknown	unknown	cell_line_or_cells
+Internal genitalia	1	unknown	unknown	no_match
+Internal organs and ventral surface	1	unknown	unknown	no_match
+Iso-Female line (Moths)	1	unknown	unknown	no_match
+M-Low-1	1	unknown	unknown	no_match
+M-Low-2	1	unknown	unknown	no_match
+M-Low-3	1	unknown	unknown	no_match
+M-high-1	1	unknown	unknown	no_match
+M-high-2	1	unknown	unknown	no_match
+M-high-3	1	unknown	unknown	no_match
+MSG	1	unknown	unknown	no_match
+Ma1	1	unknown	unknown	no_match
+Ma2	1	unknown	unknown	no_match
+Ma3	1	unknown	unknown	no_match
+Malbitt3	1	unknown	unknown	no_match
+Malbitt4	1	unknown	unknown	no_match
+Male hairpencil	1	unknown	unknown	no_match
+Male reproductive organism	1	unknown	unknown	no_match
+Malph. tubules	1	unknown	unknown	no_match
+Markov tube	1	unknown	unknown	no_match
+Oogamete 1	1	unknown	unknown	no_match
+Oogamete 2	1	unknown	unknown	no_match
+Oogamete 3	1	unknown	unknown	no_match
+Oogamete 4	1	unknown	unknown	no_match
+Oogamete 5	1	unknown	unknown	no_match
+Oogamete 6	1	unknown	unknown	no_match
+Oogamete 7	1	unknown	unknown	no_match
+Oogamete 8	1	unknown	unknown	no_match
+Oogamete 9	1	unknown	unknown	no_match
+PSG	1	unknown	unknown	no_match
+Plutella_Resistant1 Plutella Xylostella	1	unknown	unknown	no_match
+Plutella_Resistant2 Plutella Xylostella	1	unknown	unknown	no_match
+Plutella_Susceptible 1 Plutella Xylostella	1	unknown	unknown	no_match
+Plutella_Susceptible 2 Plutella Xylostella	1	unknown	unknown	no_match
+Qm1	1	unknown	unknown	no_match
+Qm2	1	unknown	unknown	no_match
+Qm3	1	unknown	unknown	no_match
+Residual Body	1	unknown	unknown	no_match
+Residual body	1	unknown	unknown	no_match
+Setae (after moult)	1	unknown	unknown	no_match
+Skin_replacate 1	1	unknown	unknown	no_match
+Skin_replacate 2	1	unknown	unknown	no_match
+Skin_replacate 3	1	unknown	unknown	no_match
+Spodoptera exiguaCK_1	1	unknown	unknown	no_match
+Spodoptera exiguaCK_2	1	unknown	unknown	no_match
+Spodoptera exiguaCK_3	1	unknown	unknown	no_match
+Spodoptera exiguaCK_4	1	unknown	unknown	no_match
+Spodoptera exiguaTC2h_1	1	unknown	unknown	no_match
+Spodoptera exiguaTC2h_2	1	unknown	unknown	no_match
+Spodoptera exiguaTC2h_3	1	unknown	unknown	no_match
+Spodoptera exiguaTC2h_4	1	unknown	unknown	no_match
+Spodoptera exiguaTC4h_1	1	unknown	unknown	no_match
+Spodoptera exiguaTC4h_2	1	unknown	unknown	no_match
+Spodoptera exiguaTC4h_3	1	unknown	unknown	no_match
+Spodoptera exiguaTC4h_4	1	unknown	unknown	no_match
+Spodoptera exiguaTC8h_1	1	unknown	unknown	no_match
+Spodoptera exiguaTC8h_2	1	unknown	unknown	no_match
+Spodoptera exiguaTC8h_3	1	unknown	unknown	no_match
+Spodoptera exiguaTC8h_4	1	unknown	unknown	no_match
+Suzhou, China	1	unknown	unknown	no_match
+True setae fields	1	unknown	unknown	no_match
+Venom glands	1	unknown	unknown	no_match
+Venom spine scoli preparation	1	unknown	unknown	no_match
+Venom spine scoli preparation 1	1	unknown	unknown	no_match
+Venom spine scoli preparation 2	1	unknown	unknown	no_match
+Venom spine scoli preparation 3	1	unknown	unknown	no_match
+Verson's glands from prepupa	1	unknown	unknown	no_match
+WT-OV1_1.fq.gz	1	unknown	unknown	no_match
+WT-OV2_1.fq.gz	1	unknown	unknown	no_match
+WT-OV3_1.fq.gz	1	unknown	unknown	no_match
+WT-TE1_1.fq.gz	1	unknown	unknown	no_match
+WT-TE2_1.fq.gz	1	unknown	unknown	no_match
+WT-TE3_1.fq.gz	1	unknown	unknown	no_match
+Worm	1	unknown	unknown	no_match
+Yellow_Adult	1	unknown	unknown	no_match
+active season prepupae	1	unknown	unknown	no_match
+adipoleucocyte	1	unknown	unknown	no_match
+all tissued	1	unknown	unknown	no_match
+anteror	1	unknown	unknown	no_match
+auricillica	1	unknown	unknown	no_match
+blood	1	unknown	unknown	no_match
+cell-line	1	unknown	unknown	cell_line_or_cells
+chest	1	unknown	unknown	no_match
+diapause prepupae	1	unknown	unknown	no_match
+glands1-1	1	unknown	unknown	no_match
+glands2-1	1	unknown	unknown	no_match
+glands3-1	1	unknown	unknown	no_match
+hole individual	1	unknown	unknown	no_match
+male	1	unknown	unknown	no_match
+mix	1	unknown	unknown	no_match
+moths	1	unknown	unknown	no_match
+scolus	1	unknown	unknown	no_match
+sensillae	1	unknown	unknown	no_match
+sex	1	unknown	unknown	no_match
+silk	1	unknown	unknown	no_match
+throax	1	unknown	unknown	no_match
+tissue1	1	unknown	unknown	no_match
+tissue10	1	unknown	unknown	no_match
+tissue11	1	unknown	unknown	no_match
+tissue12	1	unknown	unknown	no_match
+tissue2	1	unknown	unknown	no_match
+tissue3	1	unknown	unknown	no_match
+tissue4	1	unknown	unknown	no_match
+tissue5	1	unknown	unknown	no_match
+tissue6	1	unknown	unknown	no_match
+tissue7	1	unknown	unknown	no_match
+tissue8	1	unknown	unknown	no_match
+tissue9	1	unknown	unknown	no_match
+total bady	1	unknown	unknown	no_match
+unknown	1	unknown	unknown	missing
+urticating hair	1	unknown	unknown	no_match
+venom gland-like region	1	unknown	unknown	no_match
+venom scoli	1	unknown	unknown	no_match
+1larvae	1	whole_body	whole body	pattern:whole body
+2larvae	1	whole_body	whole body	pattern:whole body
+3larvae	1	whole_body	whole body	pattern:whole body
+48hpo female embryos	1	whole_body	whole body	pattern:whole body
+48hpo male embryos	1	whole_body	whole body	pattern:whole body
+4larvae	1	whole_body	whole body	pattern:whole body
+5larvae	1	whole_body	whole body	pattern:whole body
+5th instar larvae Hv_WFS_A_M	1	whole_body	whole body	pattern:whole body
+5th instar larvae WFS_A_F	1	whole_body	whole body	pattern:whole body
+6larvae	1	whole_body	whole body	pattern:whole body
+Adult female	1	whole_body	whole body	pattern:whole body
+Egg 1inst_br1_01	1	whole_body	whole body	pattern:whole body
+Egg 1inst_late_br1_02	1	whole_body	whole body	pattern:whole body
+Egg 2inst_br1_01	1	whole_body	whole body	pattern:whole body
+Egg egg	1	whole_body	whole body	pattern:whole body
+Egg pool	1	whole_body	whole body	pattern:whole body
+Egg prepupae	1	whole_body	whole body	pattern:whole body
+Ehe_Egg_1	1	whole_body	whole body	pattern:whole body
+Ehe_Pupa_1	1	whole_body	whole body	pattern:whole body
+Female adults	1	whole_body	whole body	pattern:whole body
+Female.Body_18C.1m	1	whole_body	whole body	pattern:whole body
+Female.Body_18C.2m	1	whole_body	whole body	pattern:whole body
+Female.Body_18C.3m	1	whole_body	whole body	pattern:whole body
+Female.Body_25C.1	1	whole_body	whole body	pattern:whole body
+Female.Body_25C.2	1	whole_body	whole body	pattern:whole body
+Female.Body_25C.3m	1	whole_body	whole body	pattern:whole body
+Female.Body_30C.1	1	whole_body	whole body	pattern:whole body
+Female.Body_30C.2	1	whole_body	whole body	pattern:whole body
+Female.Body_30C.3m	1	whole_body	whole body	pattern:whole body
+Fourth instar larvae	1	whole_body	whole body	pattern:whole body
+L1 whole larvae 1	1	whole_body	whole body	pattern:whole body
+L1 whole larvae 2	1	whole_body	whole body	pattern:whole body
+L1 whole larvae 3	1	whole_body	whole body	pattern:whole body
+Larval Body	1	whole_body	whole body	pattern:whole body
+Liquids of adults whole body	1	whole_body	whole body	pattern:whole body
+Male adults	1	whole_body	whole body	pattern:whole body
+Male.Body_18C.1m	1	whole_body	whole body	pattern:whole body
+Male.Body_18C.2m	1	whole_body	whole body	pattern:whole body
+Male.Body_18C.3m	1	whole_body	whole body	pattern:whole body
+Male.Body_25C.1	1	whole_body	whole body	pattern:whole body
+Male.Body_25C.2	1	whole_body	whole body	pattern:whole body
+Male.Body_25C.3m	1	whole_body	whole body	pattern:whole body
+Male.Body_30C.1	1	whole_body	whole body	pattern:whole body
+Male.Body_30C.2	1	whole_body	whole body	pattern:whole body
+Male.Body_30C.3m	1	whole_body	whole body	pattern:whole body
+Pupa and larvae	1	whole_body	whole body	pattern:whole body
+Pupae	1	whole_body	whole body	pattern:whole body
+Testisof day 7 pupa	1	whole_body	whole body	pattern:whole body
+Third instar whole larvae (L3, pool of three individuals)	1	whole_body	whole body	pattern:whole body
+Twelve-day-old female pupae	1	whole_body	whole body	pattern:whole body
+Twelve-day-old male pupae	1	whole_body	whole body	pattern:whole body
+Two-day-old female pupae	1	whole_body	whole body	pattern:whole body
+Two-day-old male pupae	1	whole_body	whole body	pattern:whole body
+Verson's glands from last instar (L6) larvae	1	whole_body	whole body	pattern:whole body
+Verson's glands from pupa	1	whole_body	whole body	pattern:whole body
+Whole Insect_1	1	whole_body	whole body	pattern:whole body
+Whole Insect_2	1	whole_body	whole body	pattern:whole body
+Whole body,HARMI-1, replicate = biological replicate 1	1	whole_body	whole body	pattern:whole body
+Whole body,HARMI-2, replicate = biological replicate 2	1	whole_body	whole body	pattern:whole body
+Whole worm1	1	whole_body	whole body	pattern:whole body
+Whole worm2	1	whole_body	whole body	pattern:whole body
+Whole worm3	1	whole_body	whole body	pattern:whole body
+Whole worm4	1	whole_body	whole body	pattern:whole body
+Whole worm5	1	whole_body	whole body	pattern:whole body
+Whole worm6	1	whole_body	whole body	pattern:whole body
+adult body	1	whole_body	whole body	pattern:whole body
+body1	1	whole_body	whole body	pattern:whole body
+body2	1	whole_body	whole body	pattern:whole body
+body3	1	whole_body	whole body	pattern:whole body
+body4	1	whole_body	whole body	pattern:whole body
+body5	1	whole_body	whole body	pattern:whole body
+body6	1	whole_body	whole body	pattern:whole body
+body7	1	whole_body	whole body	pattern:whole body
+body8	1	whole_body	whole body	pattern:whole body
+body9	1	whole_body	whole body	pattern:whole body
+different developmental stages larva and pupa	1	whole_body	whole body	pattern:whole body
+egg1	1	whole_body	whole body	pattern:whole body
+egg2	1	whole_body	whole body	pattern:whole body
+egg3	1	whole_body	whole body	pattern:whole body
+egg4	1	whole_body	whole body	pattern:whole body
+egg5	1	whole_body	whole body	pattern:whole body
+egg6	1	whole_body	whole body	pattern:whole body
+eggs, larvae, pupae, and adults	1	whole_body	whole body	pattern:whole body
+embryos	1	whole_body	whole body	pattern:whole body
+embyro	1	whole_body	whole body	pattern:whole body
+female moth midleg biological replicate 1	1	whole_body	whole body	pattern:whole body
+female moth midleg biological replicate 2	1	whole_body	whole body	pattern:whole body
+female moth_genitalia	1	whole_body	whole body	pattern:whole body
+female pupae	1	whole_body	whole body	pattern:whole body
+insect body	1	whole_body	whole body	pattern:whole body
+larvae1	1	whole_body	whole body	pattern:whole body
+larvae10	1	whole_body	whole body	pattern:whole body
+larvae11	1	whole_body	whole body	pattern:whole body
+larvae12	1	whole_body	whole body	pattern:whole body
+larvae13	1	whole_body	whole body	pattern:whole body
+larvae14	1	whole_body	whole body	pattern:whole body
+larvae15	1	whole_body	whole body	pattern:whole body
+larvae16	1	whole_body	whole body	pattern:whole body
+larvae17	1	whole_body	whole body	pattern:whole body
+larvae2	1	whole_body	whole body	pattern:whole body
+larvae3	1	whole_body	whole body	pattern:whole body
+larvae4	1	whole_body	whole body	pattern:whole body
+male moth midleg biological replicate 1	1	whole_body	whole body	pattern:whole body
+male moth midleg biological replicate 2	1	whole_body	whole body	pattern:whole body
+male moth_genitalia	1	whole_body	whole body	pattern:whole body
+male pupae	1	whole_body	whole body	pattern:whole body
+mixture of adult, pupae, larvae and eggs	1	whole_body	whole body	pattern:whole body
+mixture of mature larvae, wandering, and different stages of pupation (1 day, 5 day, and 10 day after pupation)	1	whole_body	whole body	pattern:whole body
+the whole adult	1	whole_body	whole body	pattern:whole body
+the whole egg	1	whole_body	whole body	pattern:whole body
+the whole female aduit	1	whole_body	whole body	pattern:whole body
+the whole female pupae	1	whole_body	whole body	pattern:whole body
+the whole larva	1	whole_body	whole body	pattern:whole body
+the whole male aduit	1	whole_body	whole body	pattern:whole body
+the whole male pupae	1	whole_body	whole body	pattern:whole body
+whole body of 2nd instar larvae fed on tobacco replicate 1	1	whole_body	whole body	pattern:whole body
+whole body of 2nd instar larvae fed on tobacco replicate 2	1	whole_body	whole body	pattern:whole body
+whole body of 2nd instar larvae fed on tobacco replicate 3	1	whole_body	whole body	pattern:whole body
+whole body of 3rd instar larvae fed on maize replicate 1	1	whole_body	whole body	pattern:whole body
+whole body of 3rd instar larvae fed on maize replicate 2	1	whole_body	whole body	pattern:whole body
+whole body of 3rd instar larvae fed on maize replicate 3	1	whole_body	whole body	pattern:whole body
+whole body of second instar larvae fed on maize replicate 1	1	whole_body	whole body	pattern:whole body
+whole body of second instar larvae fed on maize replicate 2	1	whole_body	whole body	pattern:whole body
+whole body of second instar larvae fed on maize replicate 3	1	whole_body	whole body	pattern:whole body
+whole body of third instar larvae fed on tobacco replicate 2	1	whole_body	whole body	pattern:whole body
+whole body of third instar larvae fed on tobacco replicate 3	1	whole_body	whole body	pattern:whole body
+whole body of third instar larvae fed on tobaccoe replicate 1	1	whole_body	whole body	pattern:whole body
+whole body1	1	whole_body	whole body	pattern:whole body
+whole body2	1	whole_body	whole body	pattern:whole body
+whole body3	1	whole_body	whole body	pattern:whole body
+whole body4	1	whole_body	whole body	pattern:whole body
+whole body5	1	whole_body	whole body	pattern:whole body
+whole body6	1	whole_body	whole body	pattern:whole body
+whole larva-1	1	whole_body	whole body	pattern:whole body
+whole larva-2	1	whole_body	whole body	pattern:whole body
+whole larva-3	1	whole_body	whole body	pattern:whole body
+whole larvae body1	1	whole_body	whole body	pattern:whole body
+whole larvae body2	1	whole_body	whole body	pattern:whole body
+whole larvae body3	1	whole_body	whole body	pattern:whole body
+whole larvae body4	1	whole_body	whole body	pattern:whole body
+whole larvae body5	1	whole_body	whole body	pattern:whole body
+whole larvae body6	1	whole_body	whole body	pattern:whole body
+whole larvae tissue	1	whole_body	whole body	pattern:whole body
+whole pupae	1	whole_body	whole body	pattern:whole body
+whole silkworm body	1	whole_body	whole body	pattern:whole body
+5days_Forewing1	1	thorax	wing	pattern:wing
+5days_Forewing2	1	thorax	wing	pattern:wing
+5days_Forewing3	1	thorax	wing	pattern:wing
+Female wing	1	thorax	wing	pattern:wing
+Fore Wing buds	1	thorax	wing	pattern:wing
+Hind Wing buds	1	thorax	wing	pattern:wing
+Male wing	1	thorax	wing	pattern:wing
+Pupal Wing	1	thorax	wing	pattern:wing
+forewing replicate 1	1	thorax	wing	pattern:wing
+forewing replicate 2	1	thorax	wing	pattern:wing
+forewing replicate 3	1	thorax	wing	pattern:wing
+forewing replicate 4	1	thorax	wing	pattern:wing
+hindwing replicate1	1	thorax	wing	pattern:wing
+hindwing replicate2	1	thorax	wing	pattern:wing
+hindwing replicate3	1	thorax	wing	pattern:wing
+hindwing replicate4	1	thorax	wing	pattern:wing
+pupal wings	1	thorax	wing	pattern:wing
+pupal wings (pool of 2 forewings)	1	thorax	wing	pattern:wing
+the whole body except wings and genitalia	1	thorax	wing	pattern:wing
+wing-discs	1	thorax	wing	pattern:wing
+whole body except wings and abdomen	1	thorax;abdomen	wing;abdomen	multi_match:wing|abdomen
+Epidermis-eyespot	1	thorax;body_wall	wing;epidermis	multi_match:wing|epidermis

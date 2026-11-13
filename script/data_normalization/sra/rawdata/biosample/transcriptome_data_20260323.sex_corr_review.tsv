@@ -1,0 +1,25 @@
+raw_sex	count	sex_corr	reason
+N/A	10685	unknown	missing_or_unknown
+female	3254	female	female
+male	2754	male	male
+pooled male and female	1052	mixed	mixed_or_pooled
+not determined	664	unknown	missing_or_unknown
+not applicable	486	unknown	missing_or_unknown
+not collected	456	unknown	missing_or_unknown
+NOT COLLECTED	374	unknown	missing_or_unknown
+missing	238	unknown	missing_or_unknown
+male and female	98	mixed	mixed_or_pooled
+unknown	91	unknown	missing_or_unknown
+not provided	69	unknown	missing_or_unknown
+NOT PROVIDED	59	unknown	missing_or_unknown
+mixed	22	mixed	mixed_or_pooled
+Not Applicable	16	unknown	missing_or_unknown
+Undetermined	12	unknown	missing_or_unknown
+female and male	8	mixed	mixed_or_pooled
+intersex	6	mixed	mixed_or_pooled
+na	6	unknown	missing_or_unknown
+not available	6	unknown	missing_or_unknown
+restricted access	6	unknown	missing_or_unknown
+unknown sex	6	unknown	missing_or_unknown
+Missing	3	unknown	missing_or_unknown
+neuter	3	unknown	missing_or_unknown

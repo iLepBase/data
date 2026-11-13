@@ -1,0 +1,15 @@
+biosample:DRS020532
+biosample:DRS020533
+biosample:DRS020534
+biosample:DRS020535
+biosample:DRS020536
+biosample:DRS020537
+biosample:DRS020538
+biosample:DRS020539
+biosample:DRS020540
+biosample:DRS020541
+biosample:DRS020542
+biosample:DRS020543
+biosample:DRS377880
+biosample:SRS6872242
+biosample:SRS6872243
