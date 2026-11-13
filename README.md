@@ -17,6 +17,7 @@ Data processing and quality control scripts, filtered and cleaned data tables fo
 | [`script/integration/`](script/integration/README.md) | Create and update species JSON documents, attach molecular and ecological data, and rebuild summary statistics. |
 | [`script/gene_tree/`](script/gene_tree/README.md) | Select representative genomes using assembly and BUSCO information and link selected BUSCO runs. This module prepares inputs; it does not by itself infer a phylogeny. |
 | [`script/archive/`](script/archive/README.md) | Earlier workflows retained for provenance. |
+| [`excluded_records/`](excluded_records/README.md) | Record-level exclusion tables, filtering reasons and audit notes. |
 
 ## Processing sequence
 
