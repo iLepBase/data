@@ -192,30 +192,6 @@ Review CSVs retain a reduced set of columns and simplify the reason to `no subfa
 
 The script does not implement an interactive manual-review application or automatically re-import human decisions. For a curated release, inspect the relevant source records, retain the curator's changes and evidence separately, and explicitly document which output rows were included or excluded. Running the script alone does not establish that all unresolved records were manually reviewed or excluded from downstream integration.
 
-## 7. Output files
-
-For `--output-prefix results/taxonomy`, the script creates:
-
-| Suffix | Contents |
-| --- | --- |
-| `.clean.sp.csv` | Rows with nonempty species and genus, including rows promoted from recommended candidates. |
-| `.clean.genus.csv` | Rows without a species but with a genus. Existing input values can affect this classification. |
-| `.drop.dot.csv` | Names containing periods, skipped before source lookup. |
-| `.review.genus.csv` | Unpromoted unresolved rows whose primary review reason is ambiguous genus candidates. |
-| `.review.none.csv` | Remaining unresolved/unclassified rows after final routing. Suggested fields may still be present. |
-| `.review.subfamily.csv` | Species-output rows missing a subfamily; overlaps `.clean.sp.csv`. |
-| `.counts.json` | Loaded, processed, output, review, anomaly, and runtime-error counts. |
-
-The first three CSVs use the full 14-column schema. Review CSVs contain `origin Species`, `family`, `fid`, `subfamliy`, `genuis`, `species`, `source`, `source link`, and `note`; they are written with a UTF-8 BOM. Other CSVs use UTF-8 without a BOM. Parent output directories are created automatically.
-
-The output-count check is:
-
-```text
-input_total = cleaned_sp + cleaned_genus + review_genus + review_none + drop_dot
-```
-
-Do not add `review_subfamily` to this total: it is an overlapping review view. `input_total` counts processed unique names after `--skip-filled` and `--limit`, whereas `loaded_rows` counts input rows retained by the reader. The script raises an error if the exclusive output counts do not match `input_total`.
-
 ## 7. Output tables and interpretation
 
 For `--output-prefix results/taxonomy`, the script writes the following files. Output directories are created as needed. Existing files at the same paths are replaced.
