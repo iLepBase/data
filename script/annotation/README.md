@@ -1,28 +1,12 @@
-# Genome annotation acquisition
+﻿# genome_anno 目录说明
 
-Download InsectBase annotation resources and copy NCBI annotation files into the data layout.
+本目录用于下载和整理 genome annotation 数据。脚本文件保持在当前目录原位。
 
-## Inputs and outputs
+## 文件分类
 
-Input: source annotation metadata and downloaded annotation files. Output: local annotation resources.
-
-## Usage
-
-Run from the repository root. Review file paths and required dependencies before executing a data-processing job. Inspect the command-line interface first:
-
-```bash
-python script/annotation/down_IBG_genome_anno.py --help
-```
-
-
-## Script inventory
-
-| Script | Interface / role |
-| --- | --- |
-| `clean/copy_ncbi_annotation_files.py` | CLI options: `--source-dir`, `--out-base`, `--overwrite` |
-| `down_IBG_genome_anno.py` | CLI options: `--order`, `--output-dir`, `--no-gff`, `--no-protein`, `--no-genome`, `--no-cds`, `--proxy`, `--csv`, `--min-gff-bytes`, `--min-gff-lines`, `--min-sequence-bytes` |
-| `download_whole_genome.py` | CLI options: `--input-file`, `--output-dir`, `--proxy`, `--overwrite`, `--dry-run`, `--timeout`, `--chunk-size`, `--min-bytes` |
-
-## Reproducibility
-
-Original defaults may refer to project-specific files or absolute server paths. Supply explicit input/output paths where supported. These are processing utilities, not a bundled copy of every upstream dataset. Live API results can differ between retrieval dates. Retain source accessions and manual-review decisions for each release.
+| 文件或目录 | 类型 | 用途 |
+| --- | --- | --- |
+| `down_IBG_genome_anno.py` | 下载脚本 | 从 Insect Genome / IBG 下载注释相关文件。 |
+| `download_whole_genome.py` | 下载脚本 | 根据 IBG ID 或详情页 URL 下载 whole genome 文件。 |
+| `clean/` | 数据处理 | NCBI annotation 文件整理脚本和配置。 |
+| `docs/` | 文档 | IBG genome 和 annotation 的历史说明。 |

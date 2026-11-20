@@ -1,26 +1,38 @@
-# DNA barcode processing
+﻿# Lepidoptera COI Data
 
-Split BOLD FASTA records by species for downstream integration.
+**Author:** menyahui, liueic   
+**Date:** 2026-03-10 
 
-## Inputs and outputs
 
-Input: BOLD sequence and metadata exports. Output: species-specific FASTA files.
+## 数据说明
 
-## Usage
+数据更新时间: 2026-02-27
 
-Run from the repository root. Review file paths and required dependencies before executing a data-processing job. Inspect the command-line interface first:
+数据来源: BOLD Systems（Barcode of Life Data Systems）: https://www.boldsystems.org/
+
+原始数据位置:
+[BOLD_Public_27-FEB-2026_FASTA.gz](/home/iLepbase/data/raw/COI/BOLD_Public_27-FEB-2026_FASTA.gz)
+
+下载说明: 见 [distribution / README.md](/home/iLepbase/data/raw/distribution/README.md)
+
+
+## 数据处理
+
+将下载的 BOLD 数据压缩包解压到当前目录：
 
 ```bash
-python script/barcode/split_bold_fasta_by_species.py --help
+gzip -dk data/raw/COI/BOLD_Public_27-FEB-2026_FASTA.gz
 ```
 
+根据 FASTA 头信息中的分类信息，从数据中提取 鳞翅目（Lepidoptera） 的序列
 
-## Script inventory
+```bash
+awk '/^>/ {p=index($0,"Lepidoptera")} p' BOLD_Public_27-FEB-2026_FASTA.fasta > lepidoptera_COI_BOLD_27-FEB-2026.fasta
+```
 
-| Script | Interface / role |
-| --- | --- |
-| `split_bold_fasta_by_species.py` | CLI options: `--info-tsv`, `--input-fasta`, `--output-dir`, `--filtered-info-tsv`, `--max-open-files`, `--progress-every` |
+## 数据统计
 
-## Reproducibility
+输出文件: [lepidoptera_COI_BOLD_27-FEB-2026.fasta](/home/iLepbase/data/raw/COI/lepidoptera_COI_BOLD_27-FEB-2026.fasta)
 
-Original defaults may refer to project-specific files or absolute server paths. Supply explicit input/output paths where supported. These are processing utilities, not a bundled copy of every upstream dataset. Live API results can differ between retrieval dates. Retain source accessions and manual-review decisions for each release.
+- 大小： 1.5G  
+- 数目： 2,178,330
